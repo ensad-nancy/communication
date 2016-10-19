@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="121px" height="121px" viewBox="0 0 121 121" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>resources</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="49.9689216%" y1="98.9910784%" x2="49.9689216%" y2="5.47029412%" id="linearGradient-1">
+            <stop stop-color="#F2F2F2" offset="0%"></stop>
+            <stop stop-color="#E7E7E7" offset="6.556261%"></stop>
+            <stop stop-color="#676767" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="resources">
+            <path d="M120,33.6 L120,30 C119.9,27.3 119.8,24.6 119.3,22.2 C118.8,19.5 118.1,17.1 116.9,14.7 C115.7,12.3 114,10.1 112.1,8.3 C110.2,6.5 108.1,4.8 105.6,3.5 C103.2,2.3 100.8,1.6 98.1,1.1 C95.7,0.6 92.9,0.5 90.3,0.4 L86.7,0.4 L82.3,0.4 L37.8,0.4 L33.4,0.4 L29.8,0.4 C27.1,0.5 24.4,0.6 22,1.1 C19.3,1.6 16.9,2.3 14.5,3.5 C12.1,4.7 9.9,6.4 8.1,8.3 C6.3,10.2 4.6,12.3 3.3,14.7 C2.1,17.1 1.4,19.5 0.9,22.2 C0.4,24.6 0.3,27.4 0.2,30 L0.2,33.6 L0.2,38 L0.2,82.6 L0.2,87 L0.2,90.6 C0.3,93.3 0.4,96 0.9,98.4 C1.4,101.1 2.1,103.5 3.3,105.9 C4.5,108.3 6.2,110.5 8.1,112.3 C10,114.1 12.1,115.8 14.5,117.1 C16.9,118.3 19.3,119 22,119.5 C24.4,120 27.2,120.1 29.8,120.2 L33.4,120.2 L37.8,120.2 L82.4,120.2 L86.8,120.2 L90.4,120.2 C93.1,120.1 95.8,120 98.2,119.5 C100.9,119 103.3,118.3 105.7,117.1 C108.1,115.9 110.3,114.2 112.2,112.3 C114,110.4 115.7,108.3 117,105.9 C118.2,103.5 118.9,101.1 119.4,98.4 C119.9,96 120,93.2 120.1,90.6 L120.1,87 L120.1,82.6 L120.1,38 C120,36.9 120,35.5 120,33.6 L120,33.6 Z" id="Shape" fill="#010202"></path>
+            <circle id="Oval" fill="url(#linearGradient-1)" cx="60.5" cy="61.1" r="51"></circle>
+            <rect id="Rectangle-path" fill="#CDCCCC" transform="translate(30.037070, 91.479640) rotate(44.975691) translate(-30.037070, -91.479640) " x="29.2870771" y="86.9796828" width="1.49998575" height="8.9999145"></rect>
+            <rect id="Rectangle-path" fill="#CDCCCC" transform="translate(90.832965, 30.669105) rotate(45.000000) translate(-90.832965, -30.669105) " x="90.0829722" y="26.1691482" width="1.49998561" height="8.99991369"></rect>
+            <g id="Group" transform="translate(13.000000, 13.000000)" fill="#CDCCCC">
+                <g transform="translate(43.000000, 0.000000)" id="Rectangle-path">
+                    <rect transform="translate(0.992690, 3.729524) rotate(85.499691) translate(-0.992690, -3.729524) " x="-2.00725931" y="3.22953236" width="5.99989822" height="0.999983037"></rect>
+                    <rect transform="translate(8.004295, 92.470344) rotate(85.501180) translate(-8.004295, -92.470344) " x="5.00435218" y="91.9703534" width="5.99988596" height="0.999980993"></rect>
+                </g>
+                <g transform="translate(35.000000, 1.000000)" id="Rectangle-path">
+                    <rect transform="translate(2.078120, 3.818860) rotate(76.502930) translate(-2.078120, -3.818860) " x="-0.921935979" y="3.31885067" width="6.00011196" height="1.00001866"></rect>
+                    <rect transform="translate(22.898540, 90.371780) rotate(76.502930) translate(-22.898540, -90.371780) " x="19.898484" y="89.8717707" width="6.00011196" height="1.00001866"></rect>
+                </g>
+                <g transform="translate(28.000000, 3.000000)" id="Rectangle-path">
+                    <rect transform="translate(2.393020, 3.932720) rotate(67.492085) translate(-2.393020, -3.932720) " x="-0.606893419" y="3.43273443" width="5.99982684" height="0.99997114"></rect>
+                    <rect transform="translate(36.498170, 86.175450) rotate(67.510159) translate(-36.498170, -86.175450) " x="33.4983238" y="85.6754756" width="5.99969237" height="0.999948729"></rect>
+                </g>
+                <g transform="translate(22.000000, 7.000000)" id="Rectangle-path">
+                    <rect transform="translate(2.216560, 3.088380) rotate(58.493842) translate(-2.216560, -3.088380) " x="-0.783496279" y="2.58837062" width="6.00011256" height="1.00001876"></rect>
+                    <rect transform="translate(48.721080, 78.989290) rotate(58.506606) translate(-48.721080, -78.989290) " x="45.7210814" y="78.4892902" width="5.99999715" height="0.999999525"></rect>
+                </g>
+                <g transform="translate(16.000000, 11.000000)" id="Rectangle-path">
+                    <rect transform="translate(2.629140, 3.227280) rotate(49.493793) translate(-2.629140, -3.227280) " x="-0.370719507" y="2.72730342" width="5.99971901" height="0.999953169"></rect>
+                    <rect transform="translate(60.404100, 70.915020) rotate(49.501871) translate(-60.404100, -70.915020) " x="57.4042072" y="70.4150379" width="5.99978556" height="0.999964259"></rect>
+                </g>
+                <g transform="translate(10.000000, 16.000000)" id="Rectangle-path">
+                    <rect transform="translate(3.595460, 3.162320) rotate(40.498129) translate(-3.595460, -3.162320) " x="0.595567222" y="2.66233787" width="5.99978556" height="0.999964259"></rect>
+                    <rect transform="translate(71.299650, 60.985690) rotate(40.490050) translate(-71.299650, -60.985690) " x="68.2997239" y="60.4857023" width="5.99985222" height="0.99997537"></rect>
+                </g>
+                <g transform="translate(6.000000, 22.000000)" id="Rectangle-path">
+                    <rect transform="translate(3.519600, 2.778430) rotate(31.501273) translate(-3.519600, -2.778430) " x="0.519700487" y="2.27844675" width="5.99979903" height="0.999966504"></rect>
+                    <rect transform="translate(79.435260, 49.303170) rotate(31.493394) translate(-79.435260, -49.303170) " x="76.4352614" y="48.8031702" width="5.99999715" height="0.999999525"></rect>
+                </g>
+                <g transform="translate(3.000000, 29.000000)" id="Rectangle-path">
+                    <rect transform="translate(3.416320, 2.010120) rotate(22.507915) translate(-3.416320, -2.010120) " x="0.416406581" y="1.51013443" width="5.99982684" height="0.99997114"></rect>
+                    <rect transform="translate(85.607690, 36.087890) rotate(22.489841) translate(-85.607690, -36.087890) " x="82.6078438" y="35.5879156" width="5.99969237" height="0.999948729"></rect>
+                </g>
+                <g transform="translate(1.000000, 36.000000)" id="Rectangle-path">
+                    <rect transform="translate(3.199800, 1.706760) rotate(13.497070) translate(-3.199800, -1.706760) " x="0.199744021" y="1.20675067" width="6.00011196" height="1.00001866"></rect>
+                    <rect transform="translate(89.699580, 22.496280) rotate(13.497070) translate(-89.699580, -22.496280) " x="86.699524" y="21.9962707" width="6.00011196" height="1.00001866"></rect>
+                </g>
+                <g transform="translate(0.000000, 43.000000)" id="Rectangle-path">
+                    <rect transform="translate(3.097839, 1.592946) rotate(4.499580) translate(-3.097839, -1.592946) " x="0.0978930627" y="1.09295475" width="5.99989221" height="0.999982035"></rect>
+                    <rect transform="translate(91.795110, 8.590863) rotate(4.499565) translate(-91.795110, -8.590863) " x="88.7951643" y="8.09087195" width="5.99989209" height="0.999982015"></rect>
+                </g>
+                <g transform="translate(0.000000, 43.000000)" id="Rectangle-path">
+                    <rect transform="translate(3.081739, 8.555557) rotate(85.515000) translate(-3.081739, -8.555557) " x="2.58175755" y="5.55567135" width="0.999962044" height="5.99977227"></rect>
+                    <rect transform="translate(91.823830, 1.545567) rotate(85.515445) translate(-91.823830, -1.545567) " x="91.3238491" y="-1.45431735" width="0.999961435" height="5.99976861"></rect>
+                </g>
+                <g transform="translate(1.000000, 36.000000)" id="Rectangle-path">
+                    <rect transform="translate(3.157280, 22.486180) rotate(76.502930) translate(-3.157280, -22.486180) " x="2.65727067" y="19.486124" width="1.00001866" height="6.00011196"></rect>
+                    <rect transform="translate(89.709230, 1.638290) rotate(76.508501) translate(-89.709230, -1.638290) " x="89.2092323" y="-1.36169597" width="0.999995325" height="5.99997195"></rect>
+                </g>
+                <g transform="translate(3.000000, 29.000000)" id="Rectangle-path">
+                    <rect transform="translate(3.389440, 36.146100) rotate(67.492085) translate(-3.389440, -36.146100) " x="2.88945443" y="33.1461866" width="0.99997114" height="5.99982684"></rect>
+                    <rect transform="translate(85.634780, 2.035880) rotate(67.492085) translate(-85.634780, -2.035880) " x="85.1347944" y="-0.964033419" width="0.99997114" height="5.99982684"></rect>
+                </g>
+                <g transform="translate(6.000000, 22.000000)" id="Rectangle-path">
+                    <rect transform="translate(3.546270, 49.285850) rotate(58.498727) translate(-3.546270, -49.285850) " x="3.04628675" y="46.2859505" width="0.999966504" height="5.99979903"></rect>
+                    <rect transform="translate(79.438920, 2.798040) rotate(58.498727) translate(-79.438920, -2.798040) " x="78.9389367" y="-0.201859513" width="0.999966504" height="5.99979903"></rect>
+                </g>
+                <g transform="translate(10.000000, 16.000000)" id="Rectangle-path">
+                    <rect transform="translate(3.582420, 60.952460) rotate(49.518027) translate(-3.582420, -60.952460) " x="3.08242675" y="57.9525005" width="0.9999865" height="5.999919"></rect>
+                    <rect transform="translate(71.266970, 3.197040) rotate(49.513670) translate(-71.266970, -3.197040) " x="70.7669443" y="0.196885729" width="1.00005142" height="6.00030854"></rect>
+                </g>
+                <g transform="translate(16.000000, 11.000000)" id="Rectangle-path">
+                    <rect transform="translate(2.578090, 70.933420) rotate(40.486330) translate(-2.578090, -70.933420) " x="2.07806429" y="67.9332657" width="1.00005142" height="6.00030854"></rect>
+                    <rect transform="translate(60.423300, 3.226500) rotate(40.481973) translate(-60.423300, -3.226500) " x="59.9233068" y="0.2265405" width="0.9999865" height="5.999919"></rect>
+                </g>
+                <g transform="translate(22.000000, 7.000000)" id="Rectangle-path">
+                    <rect transform="translate(2.224820, 78.985200) rotate(31.501273) translate(-2.224820, -78.985200) " x="1.72483675" y="75.9853005" width="0.999966504" height="5.99979903"></rect>
+                    <rect transform="translate(48.734750, 3.097650) rotate(31.493394) translate(-48.734750, -3.097650) " x="48.2347502" y="0.097651425" width="0.999999525" height="5.99999715"></rect>
+                </g>
+                <g transform="translate(28.000000, 4.000000)" id="Rectangle-path">
+                    <rect transform="translate(2.397860, 85.172280) rotate(22.507915) translate(-2.397860, -85.172280) " x="1.89787443" y="82.1723666" width="0.99997114" height="5.99982684"></rect>
+                    <rect transform="translate(36.472700, 2.986200) rotate(22.507915) translate(-36.472700, -2.986200) " x="35.9727144" y="-0.0137134188" width="0.99997114" height="5.99982684"></rect>
+                </g>
+                <g transform="translate(35.000000, 1.000000)" id="Rectangle-path">
+                    <rect transform="translate(2.088920, 90.311960) rotate(13.497070) translate(-2.088920, -90.311960) " x="1.58891067" y="87.311904" width="1.00001866" height="6.00011196"></rect>
+                    <rect transform="translate(22.914120, 3.807890) rotate(13.491499) translate(-22.914120, -3.807890) " x="22.4141223" y="0.807904025" width="0.999995325" height="5.99997195"></rect>
+                </g>
+                <g transform="translate(43.000000, 0.000000)" id="Rectangle-path">
+                    <rect transform="translate(0.998985, 92.383419) rotate(4.478879) translate(-0.998985, -92.383419) " x="0.499007993" y="89.3835576" width="0.99995367" height="5.99972202"></rect>
+                    <rect transform="translate(7.996956, 3.688804) rotate(4.479324) translate(-7.996956, -3.688804) " x="7.49697871" y="0.688940687" width="0.999954278" height="5.99972567"></rect>
+                </g>
+            </g>
+            <g id="Group" transform="translate(13.000000, 13.000000)" fill="#CDCCCC">
+                <g transform="translate(47.000000, 0.000000)" id="Rectangle-path">
+                    <rect x="0" y="0.6" width="1" height="9"></rect>
+                    <rect x="0" y="86.6" width="1" height="9"></rect>
+                </g>
+                <g transform="translate(39.000000, 1.000000)" id="Rectangle-path">
+                    <rect transform="translate(1.731330, 4.568190) rotate(80.996396) translate(-1.731330, -4.568190) " x="-2.76876796" y="4.06817912" width="9.00019593" height="1.00002177"></rect>
+                    <rect transform="translate(15.231550, 89.551790) rotate(80.996396) translate(-15.231550, -89.551790) " x="10.731452" y="89.0517791" width="9.00019593" height="1.00002177"></rect>
+                </g>
+                <g transform="translate(32.000000, 2.000000)" id="Rectangle-path">
+                    <rect transform="translate(2.170040, 5.215740) rotate(71.989027) translate(-2.170040, -5.215740) " x="-2.32997269" y="4.71573859" width="9.00002538" height="1.00000282"></rect>
+                    <rect transform="translate(28.757880, 87.029900) rotate(71.994476) translate(-28.757880, -87.029900) " x="24.2580064" y="86.529914" width="8.99974714" height="0.999971905"></rect>
+                </g>
+                <g transform="translate(25.000000, 5.000000)" id="Rectangle-path">
+                    <rect transform="translate(2.894570, 4.718590) rotate(62.991639) translate(-2.894570, -4.718590) " x="-1.60522664" y="4.2186126" width="8.99959328" height="0.999954809"></rect>
+                    <rect transform="translate(41.989400, 81.409000) rotate(62.999345) translate(-41.989400, -81.409000) " x="37.4894068" y="80.9090008" width="8.9999865" height="0.9999985"></rect>
+                </g>
+                <g transform="translate(19.000000, 9.000000)" id="Rectangle-path">
+                    <rect transform="translate(3.184330, 4.312980) rotate(53.986106) translate(-3.184330, -4.312980) " x="-1.31581222" y="3.8129642" width="9.00028444" height="1.0000316"></rect>
+                    <rect transform="translate(53.687800, 73.859200) rotate(54.006747) translate(-53.687800, -73.859200) " x="49.1877233" y="73.3591915" width="9.00015345" height="1.00001705"></rect>
+                </g>
+                <g transform="translate(13.000000, 14.000000)" id="Rectangle-path">
+                    <rect transform="translate(4.063920, 3.711440) rotate(44.991897) translate(-4.063920, -3.711440) " x="-0.43603689" y="3.21144479" width="8.99991378" height="0.99999042"></rect>
+                    <rect transform="translate(64.880240, 64.509240) rotate(45.000000) translate(-64.880240, -64.509240) " x="60.3802832" y="64.0092448" width="8.99991369" height="0.99999041"></rect>
+                </g>
+                <g transform="translate(8.000000, 19.000000)" id="Rectangle-path">
+                    <rect transform="translate(4.680010, 3.809270) rotate(35.993253) translate(-4.680010, -3.809270) " x="0.179933276" y="3.30926148" width="9.00015345" height="1.00001705"></rect>
+                    <rect transform="translate(74.298160, 54.324440) rotate(36.001256) translate(-74.298160, -54.324440) " x="69.7981829" y="53.8244425" width="8.99995428" height="0.99999492"></rect>
+                </g>
+                <g transform="translate(4.000000, 26.000000)" id="Rectangle-path">
+                    <rect transform="translate(5.217520, 2.524710) rotate(26.987843) translate(-5.217520, -2.524710) " x="0.717534288" y="2.02471159" width="8.99997142" height="0.999996825"></rect>
+                    <rect transform="translate(81.812500, 41.609300) rotate(26.987843) translate(-81.812500, -41.609300) " x="77.3125143" y="41.1093016" width="8.99997142" height="0.999996825"></rect>
+                </g>
+                <g transform="translate(2.000000, 32.000000)" id="Rectangle-path">
+                    <rect transform="translate(4.603120, 2.800760) rotate(17.987405) translate(-4.603120, -2.800760) " x="0.103235539" y="2.30077284" width="8.99976892" height="0.999974325"></rect>
+                    <rect transform="translate(86.394820, 29.399160) rotate(17.987405) translate(-86.394820, -29.399160) " x="81.8949355" y="28.8991728" width="8.99976892" height="0.999974325"></rect>
+                </g>
+                <g transform="translate(0.000000, 40.000000)" id="Rectangle-path">
+                    <rect transform="translate(4.988570, 1.285310) rotate(8.980967) translate(-4.988570, -1.285310) " x="0.488753379" y="0.785330375" width="8.99963324" height="0.999959249"></rect>
+                    <rect transform="translate(89.880190, 14.793130) rotate(8.992286) translate(-89.880190, -14.793130) " x="85.3802328" y="14.2931348" width="8.99991441" height="0.99999049"></rect>
+                </g>
+                <g transform="translate(0.000000, 47.000000)" id="Rectangle-path">
+                    <rect x="0" y="0.6" width="9" height="1"></rect>
+                    <rect x="86" y="0.6" width="9" height="1"></rect>
+                </g>
+                <g transform="translate(0.000000, 40.000000)" id="Rectangle-path">
+                    <rect transform="translate(4.979220, 14.786860) rotate(80.955888) translate(-4.979220, -14.786860) " x="4.4792036" y="10.2867124" width="1.0000328" height="9.0002952"></rect>
+                    <rect transform="translate(89.980150, 1.310350) rotate(81.002055) translate(-89.980150, -1.310350) " x="89.4801469" y="-3.18967756" width="1.00000612" height="9.00005512"></rect>
+                </g>
+                <g transform="translate(2.000000, 32.000000)" id="Rectangle-path">
+                    <rect transform="translate(4.551780, 29.392800) rotate(71.976358) translate(-4.551780, -29.392800) " x="4.05179521" y="24.8929369" width="0.999969585" height="8.99972626"></rect>
+                    <rect transform="translate(86.350680, 2.811760) rotate(71.970909) translate(-86.350680, -2.811760) " x="85.8506797" y="-1.68824238" width="1.00000053" height="9.00000477"></rect>
+                </g>
+                <g transform="translate(4.000000, 26.000000)" id="Rectangle-path">
+                    <rect transform="translate(5.159400, 41.622000) rotate(62.986534) translate(-5.159400, -41.622000) " x="4.65939989" y="37.121999" width="1.00000022" height="9.00000202"></rect>
+                    <rect transform="translate(81.819910, 2.529320) rotate(62.986534) translate(-81.819910, -2.529320) " x="81.3199099" y="-1.97068101" width="1.00000022" height="9.00000202"></rect>
+                </g>
+                <g transform="translate(8.000000, 19.000000)" id="Rectangle-path">
+                    <rect transform="translate(4.725330, 54.336390) rotate(53.978103) translate(-4.725330, -54.336390) " x="4.22532524" y="49.8363471" width="1.00000952" height="9.00008572"></rect>
+                    <rect transform="translate(74.267080, 3.838570) rotate(53.986106) translate(-74.267080, -3.838570) " x="73.7670642" y="-0.66157222" width="1.0000316" height="9.00028444"></rect>
+                </g>
+                <g transform="translate(19.000000, 9.000000)" id="Rectangle-path">
+                    <rect transform="translate(3.176300, 73.914900) rotate(35.985250) translate(-3.176300, -73.914900) " x="2.6762804" y="69.4147236" width="1.0000392" height="9.00035279"></rect>
+                    <rect transform="translate(53.695760, 4.284180) rotate(35.985250) translate(-53.695760, -4.284180) " x="53.1957404" y="-0.215996397" width="1.0000392" height="9.00035279"></rect>
+                </g>
+                <g transform="translate(25.000000, 5.000000)" id="Rectangle-path">
+                    <rect transform="translate(2.913970, 81.381460) rotate(26.987843) translate(-2.913970, -81.381460) " x="2.41397159" y="76.8814743" width="0.999996825" height="8.99997142"></rect>
+                    <rect transform="translate(41.979240, 4.799720) rotate(27.013466) translate(-41.979240, -4.799720) " x="41.4792399" y="0.299718988" width="1.00000022" height="9.00000202"></rect>
+                </g>
+                <g transform="translate(32.000000, 2.000000)" id="Rectangle-path">
+                    <rect transform="translate(2.188740, 87.007620) rotate(17.974737) translate(-2.188740, -87.007620) " x="1.68873615" y="82.5075854" width="1.0000077" height="9.0000693"></rect>
+                    <rect transform="translate(28.789240, 5.214820) rotate(17.974737) translate(-28.789240, -5.214820) " x="28.2892362" y="0.71478535" width="1.0000077" height="9.0000693"></rect>
+                </g>
+                <g transform="translate(39.000000, 1.000000)" id="Rectangle-path">
+                    <rect transform="translate(1.692440, 89.490260) rotate(8.992286) translate(-1.692440, -89.490260) " x="1.19244476" y="84.9903028" width="0.99999049" height="8.99991441"></rect>
+                    <rect transform="translate(15.187460, 4.598880) rotate(8.992286) translate(-15.187460, -4.598880) " x="14.6874648" y="0.0989227952" width="0.99999049" height="8.99991441"></rect>
+                </g>
+            </g>
+            <polygon id="Shape" fill="#010202" points="55.6 56.3 66 66.5 27.1 95.7"></polygon>
+            <polygon id="Shape" fill="#FFFFFF" points="65.9 66.6 55.5 56.4 94.4 27.2"></polygon>
+        </g>
+    </g>
+</svg>
