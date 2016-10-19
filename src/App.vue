@@ -20,6 +20,7 @@
     archive: 'http://api.tumblr.com/v2/blog/nouveau.plateforme.org/posts/',
     archive_key: 'Srhk9qkcJO69pAoB4ltM5uIqpwUBO7kgDqDEaCD9Jo8EafWyHE',
     about: 'https://raw.githubusercontent.com/ensad-nancy/communication/gh-pages/README.md',
+    reseau: 'https://raw.githubusercontent.com/ensad-nancy/communication/gh-pages/SOCIAL.md',
     yearbook: '1nPwfhbwXeIv8ksiuX6Q9rj7QBzV6skdr0z_g2gvaL3E'
   }
 
@@ -41,6 +42,12 @@
       // GET About
       this.$http.get(keys.about).then(
         (response) => { state.about.raw = response.body },
+        (response) => { console.log('err', response) }
+      )
+
+      // GET Réseau
+      this.$http.get(keys.reseau).then(
+        (response) => { state.reseau.raw = response.body },
         (response) => { console.log('err', response) }
       )
 

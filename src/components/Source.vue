@@ -1,9 +1,8 @@
 <template>
   <div class="container">
     <div v-for="elmt in state.source.elements">
-      <div class="col-sm-3">
-        <p>{{elmt.title}}</p>
-        <p>{{elmt.www}}</p>
+      <div class="col-sm-12">
+        <p><a v-link="elmt.www"> {{elmt.title}} </a></p>
       </div>
   </div>
 </template>

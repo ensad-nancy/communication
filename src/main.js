@@ -8,6 +8,7 @@ import Source from './components/Source.vue'
 import About from './components/About.vue'
 import Archive from './components/Archive.vue'
 import New from './components/New.vue'
+import Reseau from './components/Reseau.vue'
 
 Vue.use(VueResource)
 Vue.use(VueRouter)
@@ -20,7 +21,7 @@ router.map({
   '/yearbook/': { component: Yearbook },
   '/source/': { component: Source },
   '/about/': { component: About },
-  '/reseau/': { component: About },
+  '/reseau/': { component: Reseau },
   '/random/': { component: Source },
   '/': { component: New }
 })

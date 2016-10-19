@@ -13,6 +13,9 @@ const state = (function () {
     about: {
       raw: ''
     },
+    reseau: {
+      raw: ''
+    },
     ui: {
       navbar: true,
       menu: [

@@ -1,5 +1,4 @@
 <template>
-  <div class="container">
     <div v-for="elmt in state.yearbook.elements">
       <div class="row">
         <p class="col-sm-4">
@@ -13,11 +12,10 @@
         </p>
 
         <p class="col-sm-4">
-          {{elmt.www}}
+          <a v-link="elmt.www">{{elmt.www}}</a>
         </p>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
