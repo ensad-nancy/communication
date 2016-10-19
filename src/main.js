@@ -12,7 +12,15 @@ import Reseau from './components/Reseau.vue'
 
 Vue.use(VueResource)
 Vue.use(VueRouter)
-// Vue.http.options.xhr = { withCredentials: true }
+
+Vue.filter('cleanUrl', function (value) {
+  return value
+    .replace(/\/$/, '')
+    .replace('http://www.', '')
+    .replace('http://', '')
+    .replace('https://www.', '')
+    .replace('https://', '')
+})
 
 const router = new VueRouter()
 
@@ -23,12 +31,12 @@ router.map({
   '/about/': { component: About },
   '/reseau/': { component: Reseau },
   '/random/': { component: Source },
-  '/': { component: New }
+  '/now': { component: New }
 })
 
-// router.redirect({
-//   '/': '/projects'
-// })
+router.redirect({
+  '/': '/now'
+})
 
 router.beforeEach(function (transition) {
   window.scrollTo(0, 0)
@@ -36,3 +44,4 @@ router.beforeEach(function (transition) {
 })
 
 router.start(App, '#container')
+

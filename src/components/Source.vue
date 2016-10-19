@@ -1,10 +1,10 @@
 <template>
-  <div class="container">
     <div v-for="elmt in state.source.elements">
-      <div class="col-sm-12">
-        <p><a v-link="elmt.www"> {{elmt.title}} </a></p>
-      </div>
-  </div>
+      <div class="row">
+      <p class="col-sm-2">{{elmt.type}}</p>
+      <p class="col-sm-4"><a v-link="elmt.www"> {{elmt.title}} </a></p>
+      <p class="col-sm-6">{{elmt.themes}}</p>
+    </div>
 </template>
 
 <script>

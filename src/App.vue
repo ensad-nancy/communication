@@ -30,7 +30,7 @@
       // GET source
       Tabletop.init({ key: keys.source,
         callback: (data, tabletop) => {
-          state.source.elements = _.sortBy(data.source.elements, (d) => { return -d.date })
+          state.source.elements = _.sortBy(data.source.elements, (d) => { return -d.type })
         }
       })
 
@@ -80,12 +80,24 @@
 </script>
 
 <style lang="sass">
-@import "./assets/fonts/PropCourierSans/stylesheet.css";
+  @import "./assets/fonts/PropCourierSans/stylesheet.css";
 
-*
-  font-family: 'PropCourierSans', monospace;
-h1.bigtitle
-  width: 100%
-  text-align: center
+  *
+    font-family: 'PropCourierSans', monospace
+  h1.bigtitle
+    width: 100%
+    text-align: center
+    height: 7vh
+
+  a, a:hover, a:active
+    color: black
+    text-decoration: none
+    text-transform: lowercase
+  a:hover, a:active
+    text-transform: uppercase
+
+
+  twitterwidget::shadow *
+    filter: grayscale(100%);
 
 </style>

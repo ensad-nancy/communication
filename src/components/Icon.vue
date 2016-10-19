@@ -1,5 +1,5 @@
 <template>
-  <a v-link="{ path: item.uri }">
+  <a v-link="{ path: item.uri, activeClass: 'active' }">
     <img :src="imgSrc" ><br/>
     {{item.label}}
   </a>
@@ -24,6 +24,9 @@ export default {
     display: block
     color: white
     height: 30vh
+    text-decoration: none
+    &.active
+      text-transform: uppercase
 
   img
     max-width: 100%

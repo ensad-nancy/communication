@@ -1,18 +1,16 @@
 <template>
-  <div v-for="elmt in state.archive.elements">
-    <div class="row">
-      <h1 >{{elmt.title}}</h1>
-      <p class="col-sm-2">{{elmt.date}}</p>
-      <p class="col-sm-2">{{elmt.date}}</p>
-      <p class="col-sm-10">{{elmt.summary}}</p>
-    </div>
+  <div v-for="item in state.archive.elements">
+      <Archiveitem :item="item"></Archiveitem>
+  </div>
 </template>
 
 <script>
 import state from './../state.js'
+import Archiveitem from './Archiveitem'
 
 export default {
-  data: function () { return {state: state} }
+  data: function () { return {state: state} },
+  components: { Archiveitem }
 }
 </script>
 

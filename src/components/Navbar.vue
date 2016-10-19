@@ -3,7 +3,9 @@
     v-bind:class="{ 'isOverlay': state.ui.navbar}"
     class="navbar navbar-fixed-left col-sm-6"
   >
-    <h1 class="bigtitle"><a v-link="'/'">ART DE L’INFORMATION</a></h1>
+    <h1 class="bigtitle">
+      <a v-link="{ path: '/now', activeClass: 'active' }">art de l'information</a>
+    </h1>
 
     <div v-for="item in state.ui.menu" class="col-sm-6">
       <Icon :item="item"></Icon>
@@ -27,9 +29,14 @@
     width: 100%
     color: white
     text-align: center
+    height: 7vh
+
     a
       text-decoration: none
       color: white
+
+  .active
+    text-transform: uppercase
 
   .navbar-fixed-left
     position: fixed;
@@ -37,7 +44,6 @@
     height: 100vh;
     top: 0;
     background: black
-
 </style>
 
 
