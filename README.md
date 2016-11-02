@@ -1,29 +1,24 @@
 ## ENSAD Nancy, communication
 
-- CLAIRE CHEVALIER (designer graphique)
-- MARINA GADONNEIX (photographe)
-- LINA HENTGEN (artiste, auteur, dessinateur)
-- CHRISTOPHE JACQUET (artiste graphique) COORDINATEUR
-- SARAH KREMER (graphiste, typographe)
-- LEONOR NURIDSANY (commissaire d’exposition)
-- PIERRE VANNI (designer graphique)
-- BENOIT VERJAT (chercheur, designer interactif)
-- FRÉDERIC WECKER (théoricien)
-- ALAIN WILLAUME (photographe)
+CLAIRE CHEVALIER (designer graphique)
+MARINA GADONNEIX (photographe)
+LINA HENTGEN (artiste, auteur, dessinateur)
+CHRISTOPHE JACQUET (artiste graphique) COORDINATEUR
+SARAH KREMER (graphiste, typographe)
+LEONOR NURIDSANY (commissaire d’exposition)
+PIERRE VANNI (designer graphique)
+BENOIT VERJAT (chercheur, designer interactif)
+FRÉDERIC WECKER (théoricien)
+ALAIN WILLAUME (photographe)
 
 ## LA COMMUNICATION COMME ART NOUVEAU DE L’INFORMATION
 
 L’ Ensad-Nancy entend illustrer l’ouverture et le pluralisme d’une option communication dans une école d’art et donc sa nécessité
-
-L’option communication refuse de se voir réduite à un pré-carré « disciplinaire » qui serait d’autant mieux gardé qu’il serait évalué de l’extérieur par des institutions artistiques jalouses de leurs prérogatives
-
-L’option communication veut transmettre et développer un art de l’information
-
-L’option communication n’est ni une agence ni une secte 
-
-La communication y est comprise comme un acte de discours, une énonciation qui s’appuie sur des contextes et des informations pour déplacer lignes, formes et perspectives
-
-On pourra aussi bien y pratiquer l’art graphique, la performance, le cinéma d’exposition ou l’un des multiples sous lesquels se manifeste partout et tout le temps l’art de l’information
+  L’option communication refuse de se voir réduite à un pré-carré « disciplinaire » qui serait d’autant mieux gardé qu’il serait évalué de l’extérieur par des institutions artistiques jalouses de leurs prérogatives
+  L’option communication veut transmettre et développer un art de l’information
+  L’option communication n’est ni une agence ni une secte 
+  La communication y est comprise comme un acte de discours, une énonciation qui s’appuie sur des contextes et des informations pour déplacer lignes, formes et perspectives
+  On pourra aussi bien y pratiquer l’art graphique, la performance, le cinéma d’exposition ou l’un des multiples sous lesquels se manifeste partout et tout le temps l’art de l’information
 
 L’option communication ne formera pas que des designers graphiques et des « communicants », mais des énonciateurs soucieux de prendre en considération tous les composants des écosystèmes artistiques et graphiques et informationnels dans lesquels ils interviennent par un geste, une publication papier ou numérique, une proposition photographique, vidéographique, scénographique, signalétique, et plus généralement des images et/ou des textes
 
