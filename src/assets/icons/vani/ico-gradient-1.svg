@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="237px" height="237px" viewBox="0 0 237 237" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>ico-gradient-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50.0022382%" y1="-0.0189500998%" x2="50.0022382%" y2="100.027761%" id="linearGradient-1">
+            <stop stop-color="#EDEDED" offset="0%"></stop>
+            <stop stop-color="#009FE3" offset="49.69%"></stop>
+            <stop stop-color="#3AAA35" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M236.8,194 C236.8,217.6 217.7,236.7 194.1,236.7 L42.7,236.7 C19.1,236.8 0,217.6 0,194 L0,42.7 C0,19.1 19.1,0 42.7,0 L194.1,0 C217.7,0 236.8,19.1 236.8,42.7 L236.8,194 L236.8,194 Z" id="ico-gradient-1" fill="url(#linearGradient-1)"></path>
+    </g>
+</svg>
