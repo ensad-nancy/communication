@@ -1,4 +1,6 @@
 <template>
+  <h1 class="bigtitle">réseau</h1>
+
   <div>
       {{{html}}}
   </div>

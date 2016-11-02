@@ -45,3 +45,14 @@ router.beforeEach(function (transition) {
 
 router.start(App, '#container')
 
+/**
+ * Vue filter to make a simple timestamp for an ISO date.
+ * http://jsfiddle.net/bryan_k/44kqtpeg/
+ *
+ * @param {String} value The value string.
+ */
+Vue.filter('shortentime', function (value) {
+  console.log(value)
+  return value.substr(0, 10)
+})
+

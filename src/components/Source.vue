@@ -1,4 +1,5 @@
 <template>
+    <h1 class="bigtitle">source</h1>
     <div v-for="elmt in sortedElements">
       <div class="row">
         <p class="col-sm-2">{{elmt.type}}</p>
@@ -25,7 +26,7 @@ export default {
 <style lang="sass" scoped>
 
   .row
-   border-top: dotted 1px black
+   // border-top: solid 1px black
    padding-top: 8px;
    padding-bottom: 8px;
 

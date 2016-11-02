@@ -1,4 +1,5 @@
 <template>
+    <h1 class="bigtitle">yearbook</h1>
     <div v-for="year in years">
 
       <div class="row">
@@ -66,9 +67,9 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-  .row:first-child h2
-    margin-top: 0
-    padding-top: 0
+  // .row:first-child h2
+  //   margin-top: 0
+  //   padding-top: 0
 
 
 </style>

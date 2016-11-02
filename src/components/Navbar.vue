@@ -4,7 +4,7 @@
     class="navbar navbar-fixed-left col-sm-5"
   >
     <h1 class="bigtitle">
-      <a v-link="{ path: '/now', activeClass: 'active' }">art de l'information</a>
+      <a v-link="{ path: '/now' }">art de l'information</a>
     </h1>
 
     <div v-for="item in state.ui.menu" class="col-sm-6">
@@ -27,6 +27,7 @@
 
   a
     color: white
+    border: none
 
   .bigtitle a
     color: white

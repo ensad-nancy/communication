@@ -19,7 +19,7 @@ const state = (function () {
     ui: {
       navbar: true,
       menu: [
-        {uri: '/about', label: 'about'},
+        {uri: '/about', label: 'à propos'},
         {uri: '/archive', label: 'archive'},
         {uri: '/yearbook', label: 'yearbook'},
         {uri: '/reseau', label: 'réseau'},

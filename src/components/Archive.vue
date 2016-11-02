@@ -1,6 +1,7 @@
 <template>
+  <h1 class="bigtitle">archive</h1>
   <div v-for="item in state.archive.elements">
-      <Archiveitem :item="item"></Archiveitem>
+    <Archiveitem :item="item"></Archiveitem>
   </div>
 </template>
 

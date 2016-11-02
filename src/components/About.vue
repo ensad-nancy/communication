@@ -1,4 +1,5 @@
 <template>
+  <h1 class="bigtitle">à propos</h1>
   <div class="about">
       {{{html}}}
   </div>
@@ -16,7 +17,7 @@ export default {
 }
 </script>
 
-<style lang="sass" >
+<style lang="sass" scoped>
 
 li
   list-style: none;
@@ -24,6 +25,7 @@ li
 h2, p
   .normal
   line-height: 1.1
+  text-align: justify
 
 </style>
 

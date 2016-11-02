@@ -1,16 +1,15 @@
 <template>
   <div class="row">
-    <p class="col-sm-2">{{item.date}}</p>
 
-    <div  class="col-sm-5 mini">
-      <img v-for="img in images" :src="img">
-    </div>
-
-    <p class="col-sm-5">
-      <a href="{{item.post_url}}" target="_blank">{{item.title}}</a><br/>
-      {{item.summary}}
+    <p class="col-sm-4">
+      {{item.date | shortentime }}<br/>
+      <a href="{{item.post_url}}" target="_blank">{{item.title}}</a>
     </p>
-
+    <div  class="col-sm-8 mini">
+      <a href="{{item.post_url}}" target="_blank">
+        <img v-for="img in images" :src="img">
+      </a>
+    </div>
   </div>
 </template>
 
@@ -40,9 +39,15 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="sass" scoped>
-  .mini img
-    max-width: 80px
-    max-height: 80px
-    float: left;
+  .mini
+    img
+      max-width: 100px
+      max-height: 100px
+      float: left
+    a
+      border:none
 
+  .row
+    padding: 30px 0 30px
+    border-bottom: solid black 1px
 </style>

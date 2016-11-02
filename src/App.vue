@@ -1,7 +1,6 @@
 <template>
     <div id="app">
       <div class="col-sm-offset-6 col-sm-5" >
-        <h1 class="bigtitle">ENSA NANCY COMMUNICATION</h1>
         <div class="content">
           <router-view></router-view>
         </div>
@@ -21,7 +20,7 @@
     source: '1WauUa8r2qX4WHwJrK-W9nY2Y8H7qxWb9kbjtZ50s1Kw',
     archive: 'http://api.tumblr.com/v2/blog/nouveau.plateforme.org/posts/',
     archive_key: 'Srhk9qkcJO69pAoB4ltM5uIqpwUBO7kgDqDEaCD9Jo8EafWyHE',
-    about: 'https://raw.githubusercontent.com/ensad-nancy/communication/gh-pages/README.md',
+    about: 'https://raw.githubusercontent.com/ensad-nancy/communication/gh-pages/README.md?fqsdfqs',
     reseau: 'https://raw.githubusercontent.com/ensad-nancy/communication/gh-pages/SOCIAL.md',
     yearbook: '1nPwfhbwXeIv8ksiuX6Q9rj7QBzV6skdr0z_g2gvaL3E'
   }
@@ -101,17 +100,20 @@
     text-align: center
     height: 7vh
     +large()
+    text-transform: uppercase
 
   h2, h3, h4, p, ul, .normal
     +normal()
 
   h2
-    padding: $g * 5;
+    padding: $g * 2.5 $g * 5 $g * 2.5 $g * 5
+    margin: 0
 
   ul
-    padding-left: $g * 10;
-    li
-      list-style: lower-roman
+    padding-left: 0
+
+    li:before
+      content: "- ";
 
   .large
     +large()
