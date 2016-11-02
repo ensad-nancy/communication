@@ -1,32 +1,67 @@
 <template>
-    <div v-for="elmt in state.yearbook.elements">
+    <div v-for="year in years">
+
       <div class="row">
-        <p class="col-sm-3">
-          <span v-if="elmt.DNAP">DNAP ({{elmt.DNAP}})</span>
-        </p>
-
-        <p class="col-sm-3">
-          <span v-if="elmt.DNSEP">DNSEP ({{elmt.DNSEP}})</span>
-        </p>
-
-        <p class="col-sm-6">
-          <a href="{{elmt.www}}" target="_blank">{{elmt.prenom}}
-          {{elmt.nom}}</a>
-        </p>
-
-
-
-
+        <h2 class="col-sm-4">{{year.label}}</h2>
+        <h2 class="col-sm-4">{{year.dnsep.length}}</h2>
+        <h2 class="col-sm-4">DNSEP</h2>
       </div>
-      <hr>
+
+      <div class="row">
+        <p v-for="elmt in year.dnsep" class="col-sm-4">
+            <a href="{{elmt.www}}" target="_blank">{{elmt.prenom}} {{elmt.nom}}</a>
+        </p>
+      </div>
+      <div class="row">
+        <h2 class="col-sm-4">{{year.label}}</h2>
+        <h2 class="col-sm-4">{{year.dnap.length}}</h2>
+        <h2 class="col-sm-4">DNAP</h2>
+      </div>
+
+      <div class="row">
+        <p v-for="elmt in year.dnap" class="col-sm-4">
+          <a href="{{elmt.www}}" target="_blank">{{elmt.prenom}} {{elmt.nom}}</a>
+        </p>
+      </div>
     </div>
 </template>
 
 <script>
 import state from './../state.js'
+import _ from 'lodash'
 
 export default {
-  data: function () { return {state: state} }
+  data: function () { return {state: state} },
+  computed: {
+    years: function () {
+      return _(this.state.yearbook.elements)
+      .map((elmt) => {
+        return _.trim(elmt.DNSEP)
+      })
+      .sortedUniq()
+      .filter((d) => {
+        return d !== ''
+      })
+      .map((year) => {
+        return {
+          label: year,
+          dnsep: this.dnsep[year],
+          dnap: this.dnap[year]
+        }
+      })
+      .value()
+    },
+    dnsep: function () {
+      return _(this.state.yearbook.elements).groupBy((elmt) => {
+        return _.trim(elmt.DNSEP)
+      }).value()
+    },
+    dnap: function () {
+      return _(this.state.yearbook.elements).groupBy((elmt) => {
+        return _.trim(elmt.DNAP)
+      }).value()
+    }
+  }
 }
 </script>
 

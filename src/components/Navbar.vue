@@ -25,17 +25,11 @@
 
 <style lang="sass" scoped>
 
-  h1.bigtitle
-    width: 100%
+  a
     color: white
-    text-align: center
-    height: 7vh
 
-    a
-      text-decoration: none
-      color: white
-
-  .active
+  .bigtitle a
+    color: white
     text-transform: uppercase
 
   .navbar-fixed-left
@@ -44,6 +38,7 @@
     height: 100vh;
     top: 0;
     background: black
+
 </style>
 
 

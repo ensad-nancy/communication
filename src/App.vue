@@ -2,7 +2,9 @@
     <div id="app">
       <div class="col-sm-offset-6 col-sm-6" >
         <h1 class="bigtitle">ENSA NANCY COMMUNICATION</h1>
-        <router-view></router-view>
+        <div class="content">
+          <router-view></router-view>
+        </div>
       </div>
       <Navbar></Navbar>
     </div>
@@ -81,21 +83,41 @@
 
 <style lang="sass">
   @import "./assets/fonts/PropCourierSans/stylesheet.css";
+  $g: 8px;
 
-  *
+  =normal()
+    font-size: $g * 2
     font-family: 'PropCourierSans', monospace
-  h1.bigtitle
+    // color: red
+
+
+  =large()
+    font-family: 'PropCourierSans', monospace
+    font-size: $g * 3
+    // color: blue
+
+  .bigtitle
     width: 100%
     text-align: center
     height: 7vh
+    +large()
+
+  h2, h3, h4, p, ul, .normal
+    +normal()
+
+  .large
+    +large()
+
+  .content
+    padding: $g*2;
+
 
   a, a:hover, a:active
     color: black
-    text-decoration: none
-    text-transform: lowercase
-  a:hover, a:active
-    text-transform: uppercase
+    text-decoration: underline
 
+  a:hover, a:active, a.active
+    text-decoration: underline
 
   twitterwidget::shadow *
     filter: grayscale(100%);

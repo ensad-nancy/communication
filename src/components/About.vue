@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="about">
       {{{html}}}
   </div>
 </template>
@@ -16,15 +16,17 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped>
+<style lang="sass" >
 
+li
+  list-style: none;
 
-.navbar-fixed-left
-  position: fixed;
-  border-radius: 0;
-  height: 100vh;
-  top: 0;
-  background: black
+h2
+  padding: 40px;
+
+h2, p
+  .normal
+  line-height: 1.1
 
 </style>
 

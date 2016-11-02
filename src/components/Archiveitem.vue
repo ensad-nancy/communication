@@ -1,12 +1,15 @@
 <template>
   <div class="row">
-    <h1 ><a href="{{item.post_url}}" target="_blank">{{item.title}}</a></h1>
     <p class="col-sm-2">{{item.date}}</p>
 
     <div  class="col-sm-4 mini">
       <img v-for="img in images" :src="img">
     </div>
-    <p class="col-sm-6">{{item.summary}}</p>
+
+    <p class="col-sm-6">
+      <a href="{{item.post_url}}" target="_blank">{{item.title}}</a>
+      {{item.summary}}
+    </p>
 
   </div>
 </template>
@@ -41,4 +44,8 @@ export default {
     max-width: 100px
     max-height: 100px
     float: left;
+
+
+  p
+    font-size: 14px;
 </style>

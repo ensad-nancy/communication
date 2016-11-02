@@ -1,5 +1,5 @@
 <template>
-  <a v-link="{ path: item.uri, activeClass: 'active' }">
+  <a class="large" v-link="{ path: item.uri, activeClass: 'active' }">
     <img :src="imgSrc" ><br/>
     {{item.label}}
   </a>
@@ -18,6 +18,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="sass" scoped>
+
   a
     height: 100/3 vh
     text-align: center
@@ -25,8 +26,6 @@ export default {
     color: white
     height: 30vh
     text-decoration: none
-    &.active
-      text-transform: uppercase
 
   img
     max-width: 100%
