@@ -26,6 +26,8 @@ export default {
     color: white
     height: 30vh
     text-decoration: none
+    text-transform: uppercase
+    border: none
 
   img
     max-width: 100%

@@ -3,8 +3,8 @@
 
       <div class="row">
         <h2 class="col-sm-4">{{year.label}}</h2>
-        <h2 class="col-sm-4">{{year.dnsep.length}}</h2>
         <h2 class="col-sm-4">DNSEP</h2>
+        <h2 class="col-sm-4">{{year.dnsep.length}}</h2>
       </div>
 
       <div class="row">
@@ -14,8 +14,8 @@
       </div>
       <div class="row">
         <h2 class="col-sm-4">{{year.label}}</h2>
-        <h2 class="col-sm-4">{{year.dnap.length}}</h2>
         <h2 class="col-sm-4">DNAP</h2>
+        <h2 class="col-sm-4">{{year.dnap.length}}</h2>
       </div>
 
       <div class="row">
@@ -65,6 +65,11 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="sass" scoped>
+  .row:first-child h2
+    margin-top: 0
+    padding-top: 0
+
+
 </style>
 

@@ -21,9 +21,6 @@ export default {
 li
   list-style: none;
 
-h2
-  padding: 40px;
-
 h2, p
   .normal
   line-height: 1.1

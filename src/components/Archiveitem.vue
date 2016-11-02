@@ -2,12 +2,12 @@
   <div class="row">
     <p class="col-sm-2">{{item.date}}</p>
 
-    <div  class="col-sm-4 mini">
+    <div  class="col-sm-5 mini">
       <img v-for="img in images" :src="img">
     </div>
 
-    <p class="col-sm-6">
-      <a href="{{item.post_url}}" target="_blank">{{item.title}}</a>
+    <p class="col-sm-5">
+      <a href="{{item.post_url}}" target="_blank">{{item.title}}</a><br/>
       {{item.summary}}
     </p>
 
@@ -41,11 +41,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="sass" scoped>
   .mini img
-    max-width: 100px
-    max-height: 100px
+    max-width: 80px
+    max-height: 80px
     float: left;
 
-
-  p
-    font-size: 14px;
 </style>

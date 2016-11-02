@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-      <div class="col-sm-offset-6 col-sm-6" >
+      <div class="col-sm-offset-6 col-sm-5" >
         <h1 class="bigtitle">ENSA NANCY COMMUNICATION</h1>
         <div class="content">
           <router-view></router-view>
@@ -105,19 +105,30 @@
   h2, h3, h4, p, ul, .normal
     +normal()
 
+  h2
+    padding: $g * 5;
+
+  ul
+    padding-left: $g * 10;
+    li
+      list-style: lower-roman
+
   .large
     +large()
 
   .content
-    padding: $g*2;
 
+  p
+    max-width: 700px
+    // margin:auto
 
   a, a:hover, a:active
     color: black
-    text-decoration: underline
+    border-bottom: 1px solid currentColor;
+    text-decoration: none;
 
   a:hover, a:active, a.active
-    text-decoration: underline
+    text-decoration: none
 
   twitterwidget::shadow *
     filter: grayscale(100%);

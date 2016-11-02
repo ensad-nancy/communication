@@ -15,9 +15,5 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-  h1
-    text-transform: uppercase;
-  .row
-    padding-left: 20px;
 
 </style>

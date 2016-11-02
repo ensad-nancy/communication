@@ -1,7 +1,7 @@
 <template>
   <nav
     v-bind:class="{ 'isOverlay': state.ui.navbar}"
-    class="navbar navbar-fixed-left col-sm-6"
+    class="navbar navbar-fixed-left col-sm-5"
   >
     <h1 class="bigtitle">
       <a v-link="{ path: '/now', activeClass: 'active' }">art de l'information</a>
