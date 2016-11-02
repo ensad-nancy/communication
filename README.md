@@ -1,15 +1,15 @@
 ## ENSAD Nancy, communication
 
-CLAIRE CHEVALIER (designer graphique)
-MARINA GADONNEIX (photographe)
-LINA HENTGEN (artiste, auteur, dessinateur)
-CHRISTOPHE JACQUET (artiste graphique) COORDINATEUR
-SARAH KREMER (graphiste, typographe)
-LEONOR NURIDSANY (commissaire d’exposition)
-PIERRE VANNI (designer graphique)
-BENOIT VERJAT (chercheur, designer interactif)
-FRÉDERIC WECKER (théoricien)
-ALAIN WILLAUME (photographe)
+- CLAIRE CHEVALIER (designer graphique)
+- MARINA GADONNEIX (photographe)
+- LINA HENTGEN (artiste, auteur, dessinateur)
+- CHRISTOPHE JACQUET (artiste graphique) COORDINATEUR
+- SARAH KREMER (graphiste, typographe)
+- LEONOR NURIDSANY (commissaire d’exposition)
+- PIERRE VANNI (designer graphique)
+- BENOIT VERJAT (chercheur, designer interactif)
+- FRÉDERIC WECKER (théoricien)
+- ALAIN WILLAUME (photographe)
 
 ## LA COMMUNICATION COMME ART NOUVEAU DE L’INFORMATION
 
