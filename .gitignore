@@ -34,7 +34,6 @@ Icon
 /assets/avatars
 /thumbs/*
 /content
-/site/config/config.php
 /site/cache/*
 /vendor/
 bower_components/

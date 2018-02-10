@@ -10,9 +10,13 @@
       <p class="footer-madewithkirby">
         <a href="http://getkirby.com/made-with-kirby-and-love">Made with Kirby and <b class="heart">♥</b></a>
       </p>
-    
+
     </div>
   </footer>
-
+  <?php echo js(array(
+    '/assets/js/bundle.min.js',
+    '/assets/js/app.js',
+    'assets/plugins/imageset/js/dist/imageset.js'
+  ))?>
 </body>
 </html>
