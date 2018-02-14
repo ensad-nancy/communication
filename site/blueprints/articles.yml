@@ -1,0 +1,33 @@
+title: Articles
+
+files: false
+
+pages:
+  template: article
+  sort: flip
+  num: date
+  limit: 100
+
+options:
+  template: false
+  status: false
+
+icon: newspaper-o
+
+fields:
+  title:
+    label: Title
+    type: title
+    required: true
+    width: 3/4
+
+  text:
+    label: Text
+    type: textarea
+
+
+  info:
+    label: Hint
+    type: info
+    text: >
+      un texte d'information ici
