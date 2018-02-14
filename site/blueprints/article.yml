@@ -22,6 +22,29 @@ fields:
     required: true
     width: 1/2
 
+  Tumblr_url:
+    label: old URL
+    type: text
+    width: 1/2
+
+  type:
+    label: Format
+    type: multiselect
+    required: true
+    options:
+      dnsep : dnsep
+      dna : dna
+      invite : invité
+      evenement : evenement
+      production : production
+      workshop : workshop
+    width: 1/2
+
+  keywords:
+    label: tags
+    type: tags
+
+
   text:
     label: Text
     type: textarea

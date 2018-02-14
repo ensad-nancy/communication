@@ -3,7 +3,7 @@
 
 <div class="container">
   <?php
-    $articles = page('flux')->children()->visible();
+    $articles = page('flux')->children()->visible()->flip();
   ?>
 
   <?php foreach($articles as $article): ?>
