@@ -4,13 +4,14 @@ pages: false
 
 fields:
   title:
-    label: Title
+    label: Titre
     type:  title
 
   coverimage:
-    label: Cover Image
+    label: Image d'aperçu
     type: image
     width: 1/2
+    help: image qui sera affichée comme aperçu du projet
 
   date:
     icon: calendar
@@ -21,11 +22,8 @@ fields:
     default: today
     required: true
     width: 1/2
+    help: indications temporelles concernant le projet
 
-  Tumblr_url:
-    label: old URL
-    type: text
-    width: 1/2
 
   type:
     label: Format
@@ -39,12 +37,20 @@ fields:
       production : production
       workshop : workshop
     width: 1/2
+    help: vous pouvez selectionner plusieurs formats
+
 
   keywords:
     label: tags
     type: tags
+    width: 1/2
 
 
   text:
     label: Text
     type: textarea
+    placeholder: contenu de l'article
+
+  Tumblr_url:
+    label: old URL
+    type: text
