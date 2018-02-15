@@ -1,4 +1,4 @@
-<div class="container poster">
+<div class="container-fluid poster">
   <?= page('flux')->text()->kirbytext() ?>
 </div>
 <?php snippet('menu') ?>

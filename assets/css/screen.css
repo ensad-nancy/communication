@@ -6805,6 +6805,7 @@ a:active {
 body {
   font-family: 'Spectral', serif;
   margin-top: 54px;
+  margin-bottom: 360px;
 }
 .maintitle {
   font-size: 1.8em;
@@ -6839,6 +6840,8 @@ body {
 .sentence {
   font-family: 'Spectral', serif;
   font-size: 1.8em;
+  line-height: 1.1em;
+  margin: 0 0 54px;
 }
 .sentence .tags a {
   font-family: paniniregular, 'Spectral', serif;
@@ -6851,6 +6854,15 @@ a.year,
 a.format {
   font-family: arabesqueregular, 'Spectral', serif;
   text-transform: lowercase;
+}
+.tagTitle {
+  text-align: center;
+}
+.poster img {
+  width: 100%;
+}
+.poster {
+  margin: 54px 0 54px;
 }
 .poster img {
   display: block;

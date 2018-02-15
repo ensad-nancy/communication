@@ -15,7 +15,6 @@
 
     <div class="col-sm-offset-2 col-sm-8">
       <?= $page->text()->kirbytext() ?>
-
     </div>
 
   </div>

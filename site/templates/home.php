@@ -41,7 +41,7 @@
   ?>
 
   <div class="container">
-      <h1 class="<?=$type?>"><?= $label ?></h1>
+      <h1 class="<?=$type?> tagTitle col-sm-12"><?= $label ?></h1>
   </div>
   <div class="container-fluid">
 
