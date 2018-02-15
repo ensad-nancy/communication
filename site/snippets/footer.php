@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container-fluid formats">
 
   <?php $tagcloud = tagcloud(page('flux'),
   array('limit' => 50,
@@ -16,10 +16,10 @@
 
 </div>
 <hr>
-<div class="container-fluid">
+<div class="container-fluid keywords">
 
   <?php $tagcloud = tagcloud(page('flux'),
-    array('limit' => 50,
+    array('limit' => 20,
       'field' => 'keywords',
       'baseurl' => '.',
       'sortdir' => 'desc',
@@ -35,7 +35,7 @@
 
 </div>
 <hr>
-<div class="container-fluid">
+<div class="container-fluid years">
 
   <div class="tags">
     <?php for ($y=2012; $y < (int)date("Y")+1; $y++): ?>

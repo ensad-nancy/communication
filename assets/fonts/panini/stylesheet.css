@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'paniniregular';
+    src: url('../fonts/panini/panini-webfont.eot');
+    src: url('../fonts/panini/panini-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/panini/panini-webfont.woff2') format('woff2'),
+         url('../fonts/panini/panini-webfont.woff') format('woff'),
+         url('../fonts/panini/panini-webfont.ttf') format('truetype'),
+         url('../fonts/panini/panini-webfont.svg#paniniregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
