@@ -62,5 +62,15 @@
   <?php else: ?>
     <?php snippet('lines') ?>
   <?php endif ?>
+
+
+  <?php snippet('footer') ?>
+
+  <?php //if(isset($flux)): ?>
+    <div class="container-fluid manifeste">
+      <div class="col-sm-offset-2 col-sm-7">
+        <?= page('p/manifeste/')->text()->kirbytext() ?>
+      </div>
+    </div>
+    <?php// endif ?>
 </div>
-<?php snippet('footer') ?>

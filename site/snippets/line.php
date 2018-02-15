@@ -30,13 +30,13 @@ if( count($types) > 0){
         <img class="img-responsive" src="<?= $tumb->url() ?>" alt="" />
       </a>
     <?php endif ?>
-    <div >
+    <div class="caption">
       <?php if($limit < 6):?>
-        <p class="date col-sm-4"><?= $item->date('d.m.Y') ?><br><?=$item->type()?> </p>
+        <p class="col-sm-4 date"> <?= $item->date('d.m.Y') ?> </p>
+        <p class="col-sm-8 type"><a href="/format:<?=$item->type()?>"><?=$item->type()?></a> </p>
       <?php endif?>
-      <p class="title col-sm-8"><?= $item->title() ?> (<?= $item->keywords() ?>) </p>
-        <?php if($limit < 6):?>
-      <?php endif?>
+      <p class="title col-sm-offset-4 col-sm-9"><?= excerpt($item->title(), 5, 'words') ?></p>
+
     </div>
   </div>
 

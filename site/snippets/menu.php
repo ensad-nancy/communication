@@ -12,12 +12,12 @@ $tagcloud = tagcloud(page('flux'),
 ?>
 
 <div class="sentence">
-  <div class="formats">
+  <div class="types">
     <?= $site->footer()->kirbytext() ?>
   </div>
 
   <p ><?php foreach($tagcloud as $tag): ?>
-     	  <a class="format"href="/tag:<?php echo urlencode($tag->name()) ?>"><?php echo $tag->name() ?></a> •
+     	  <a class="keyword" href="/tag:<?php echo urlencode($tag->name()) ?>"><?php echo $tag->name() ?></a> •
      	<?php endforeach ?>
 
    au cours des années

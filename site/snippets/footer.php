@@ -1,7 +1,11 @@
-<div class="container-fluid poster">
-  <?= page('flux')->text()->kirbytext() ?>
+<div class="footer">
+  <div class="container-fluid poster">
+    <?= page('flux')->text()->kirbytext() ?>
+  </div>
+  <?php snippet('menu') ?>
+
 </div>
-<?php snippet('menu') ?>
+
 
 <?php echo js(array(
   '/assets/js/bundle.min.js',
