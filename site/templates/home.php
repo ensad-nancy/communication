@@ -44,8 +44,11 @@
   ?>
 
   <div class="container">
-    <h1> <?= $label ?></h1>
-    <?php for ($i=0; $i < 10; $i++):$lim=3; ?>
+      <h1> <?= $label ?></h1>
+  </div>
+  <div class="container-fluid">
+
+    <?php for ($i=0; $i < 10; $i++):$lim=4; ?>
       <?php snippet('line',
         array('flux' => $flux ,'start' => $i*$lim, 'limit' => $lim, 'types' => array('dnsep','dna','invite','evenement','production','workshop',
     ))) ?>

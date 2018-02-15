@@ -6814,5 +6814,10 @@ a:active {
   display: inline-block;
   margin-left: 18px;
   margin-right: 18px;
-  font-size: 3em;
+  font-size: 3.5em;
+}
+.poster img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }

@@ -30,12 +30,12 @@ fields:
     type: multiselect
     required: true
     options:
-      dnsep : dnsep
-      dna : dna
-      invite : invité
-      evenement : événement
-      production : production
+
+      projet: projet
       workshop : workshop
+      evenement : événement
+      diplome : diplome
+
     width: 1/2
     help: vous pouvez selectionner plusieurs formats
 

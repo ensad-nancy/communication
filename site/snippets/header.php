@@ -17,4 +17,5 @@
 
 <div class="container">
   <h1> <a href="<?= url() ?>" rel="home"><?= $site->title()->html() ?></a></h1>
+  <p> <a href="<?= url() ?>" rel="home"><?= $site->author()->html() ?></a></p>
 </div>

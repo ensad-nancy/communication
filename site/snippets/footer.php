@@ -10,7 +10,7 @@
 ) ?>
 <div class="tags">
   <?php foreach($tagcloud as $tag): ?>
-    <a href="<?php echo $tag->url() ?>"><?php echo $tag->name() ?></a>
+    <a href="/<?php echo $tag->url() ?>"><?php echo $tag->name() ?></a>
   <?php endforeach ?>
 </div>
 
@@ -29,7 +29,7 @@
 
  	<div class="tags">
    	<?php foreach($tagcloud as $tag): ?>
-   	  <a href="<?php echo $tag->url() ?>"><?php echo $tag->name() ?></a>
+   	  <a href="/<?php echo $tag->url() ?>"><?php echo $tag->name() ?></a>
    	<?php endforeach ?>
  	</div>
 
@@ -38,12 +38,15 @@
 <div class="container-fluid">
 
   <div class="tags">
-    <?php for ($y=2011; $y < (int)date("Y"); $y++): ?>
+    <?php for ($y=2012; $y < (int)date("Y")+1; $y++): ?>
       <a href="/year:<?= $y ?>"><?= $y ?></a>
     <?php endfor ?>
   </div>
 </div>
 
+<div class="container poster">
+  <?= page('flux')->text()->kirbytext() ?>
+</div>
 <?php echo js(array(
   '/assets/js/bundle.min.js',
   '/assets/js/app.js',
