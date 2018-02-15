@@ -2,12 +2,21 @@
 
 
   <div class="container">
-    <?= $page->text()->kirbytext() ?>
 
-    <p class="date"><?= $page->date('m.Y') ?></p>
-    <h1><?= $page->title() ?></h1>
-    <p class="title"><?=$page->type()?> (<?= $page->keywords() ?>)</p>
-         <?= $page->date('F jS, Y') ?>
-    <hr>
+    <div class="col-sm-4 col-sm-offset-2">
+
+      <p class="date"><?= $page->date('d.m.Y') ?>, <?=$page->type()?></p>
+      <p><?= $page->keywords() ?></p>
+
+    </div>
+    <div class="col-sm-4">
+      <p class="title"><?= $page->title() ?></p>
+    </div>
+
+    <div class="col-sm-offset-2 col-sm-8">
+      <?= $page->text()->kirbytext() ?>
+
+    </div>
+
   </div>
 <?php snippet('footer') ?>

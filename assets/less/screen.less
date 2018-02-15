@@ -2,9 +2,9 @@
 @import 'variables.less';
 // @import (less) '../../site/plugins/oembed/assets/oembed.css';
 
+@import (less) url('https://fonts.googleapis.com/css?family=Spectral+SC:500|Spectral:400,400i,700,700i');
 @import (less) url('./../fonts/panini/stylesheet.css');
 @import (less) url('./../fonts/arabesque/stylesheet.css');
-@import (less) url('https://fonts.googleapis.com/css?family=Spectral+SC:500|Spectral:400,400i,700,700i');
 
 @mainColor: royalblue;
 @charset "UTF-8";
@@ -24,6 +24,7 @@ a {
 }
 
 body {
+  font-family: 'Spectral', serif;
   margin-top: @grid-gutter-width*3
 }
 .maintitle {
@@ -63,27 +64,21 @@ body {
 }
 
 .sentence {
-  font-family: 'Spectral', serif;
 
-    font-size:1.8em;
-  a {
-    font-family: paniniregular, 'Spectral', serif;
-    // min-width: 5vw;
-  }
-  .tags {
-    display: inline;
-  }
+  font-family: 'Spectral', serif;
+  font-size:1.8em;
+
   .tags a {
-    font-family: arabesqueregular, 'Spectral', serif;
+    font-family: paniniregular, 'Spectral', serif;
     text-transform: lowercase;
   }
 }
 
-.formats a, .year{
-  font-family: arabesqueregular, 'Spectral', serif;
-}
-.keyword, .tag {
+a.year, .formats a {
   font-family: paniniregular, 'Spectral', serif;
+}
+a.format {
+  font-family: arabesqueregular, 'Spectral', serif;
   text-transform: lowercase;
 }
 
