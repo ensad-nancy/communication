@@ -11,12 +11,12 @@ fields:
 
   description:
     label: Description
-    type:  textarea
+    type:  markdown
 
   footer:
     label: footer intro
-    type:  textarea
+    type:  markdown
 
   copyright:
     label: Copyright
-    type:  textarea
+    type:  markdown

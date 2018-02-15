@@ -48,7 +48,7 @@ fields:
 
   text:
     label: Text
-    type: textarea
+    type: markdown
     placeholder: contenu de l'article
 
   Tumblr_url:
