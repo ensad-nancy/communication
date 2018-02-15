@@ -35,7 +35,7 @@ if( count($types) > 0){
         <p class="col-sm-4 date"> <?= $item->date('d.m.Y') ?> </p>
         <p class="col-sm-8 type"><a href="/format:<?=$item->type()?>"><?=$item->type()?></a> </p>
       <?php endif?>
-      <p class="title col-sm-offset-4 col-sm-9"><?= excerpt($item->title(), 5, 'words') ?></p>
+      <p class="title col-sm-offset-4 col-sm-9"><?= excerpt($item->title(), 8, 'words') ?></p>
 
     </div>
   </div>

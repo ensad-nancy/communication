@@ -11,18 +11,19 @@ $tagcloud = tagcloud(page('flux'),
 )
 ?>
 
-<div class="sentence">
-  <div class="types">
-    <?= $site->footer()->kirbytext() ?>
+  <div class="sentence">
+    <div class="types">
+      <?= $site->footer()->kirbytext() ?>
+    </div>
+
+    <p ><?php foreach($tagcloud as $tag): ?>
+       	  <a class="keyword" href="/tag:<?php echo urlencode($tag->name()) ?>"><?php echo $tag->name() ?></a> •
+       	<?php endforeach ?>
+
+     au cours des années
+      <?php for ($y=2012; $y < (int)date("Y")+1; $y++): ?>
+        <a class="year" href="/year:<?= $y ?>"><?= $y ?></a>
+      <?php endfor ?>.
+    </p>
   </div>
-
-  <p ><?php foreach($tagcloud as $tag): ?>
-     	  <a class="keyword" href="/tag:<?php echo urlencode($tag->name()) ?>"><?php echo $tag->name() ?></a> •
-     	<?php endforeach ?>
-
-   au cours des années
-    <?php for ($y=2012; $y < (int)date("Y")+1; $y++): ?>
-      <a class="year" href="/year:<?= $y ?>"><?= $y ?></a>
-    <?php endfor ?>.
-  </p>
 </div>

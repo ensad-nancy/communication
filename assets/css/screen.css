@@ -6799,7 +6799,8 @@ button.close {
 }
 a,
 a:hover,
-a:active {
+a:active,
+a:focus {
   color: black;
 }
 body {
@@ -6827,6 +6828,7 @@ body {
   margin-bottom: 18px;
 }
 .line .line-item .caption {
+  margin-top: .3em;
   height: 4em;
 }
 .line .line-item p.title {
@@ -6847,6 +6849,9 @@ body {
 .sentence .tags a {
   font-family: paniniregular, 'Spectral', serif;
   text-transform: lowercase;
+}
+.types {
+  font-family: 'Spectral', serif;
 }
 a.year,
 .types a,
@@ -6871,9 +6876,9 @@ a.keyword,
   font-size: 1.8em;
   line-height: 1.1em;
 }
-.footer .poster {
+.poster {
   margin: 54px 0 54px;
 }
-.footer .poster img {
-  width: 100%;
+.poster img {
+  width: 100% !important;
 }
