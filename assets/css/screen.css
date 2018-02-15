@@ -6782,6 +6782,11 @@ button.close {
   width: 100%;
   border: 0;
 }
+a,
+a:hover,
+a:active {
+  color: black;
+}
 .line .line-item {
   margin-bottom: 18px;
 }
@@ -6801,4 +6806,13 @@ button.close {
 }
 .line .line-item p.type {
   text-align: right;
+}
+.tags {
+  text-align: center;
+}
+.tags a {
+  display: inline-block;
+  margin-left: 18px;
+  margin-right: 18px;
+  font-size: 3em;
 }
