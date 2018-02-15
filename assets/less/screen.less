@@ -18,27 +18,25 @@
 .line {
   .line-item {
 
-    // text-align: center;
     p {
       margin-bottom: 0;
-      // background-color: black;
-      // color: white;
-
       text-overflow: ellipsis;
       white-space: nowrap;
       overflow: hidden;
+
+      &.title {
+        font-family: 'Spectral SC', serif;
+        text-align: center;
+      }
+      &.date {
+        text-align: left;
+        direction: rtl;
+      }
+      &.type {
+        text-align: right;
+      }
     }
-    .title {
-      font-family: 'Spectral SC', serif;
-      text-align: center;
-    }
-    .date {
-      text-align: left;
-      direction: rtl;
-    }
-    .type {
-      text-align: right;
-    }
+
     margin-bottom: @grid-gutter-width;
   }
 }

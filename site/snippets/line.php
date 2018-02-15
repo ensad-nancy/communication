@@ -31,11 +31,13 @@ $items = $flux->filter(function($child) use($types) {
         <img class="img-responsive" src="<?= $tumb->url() ?>" alt="" />
       </a>
     <?php endif ?>
+    <?php if($limit < 7):?>
     <div >
-      <p class="col-sm-2 date"><?= $item->date('m.Y') ?></p>
-      <p class="col-sm-7 title"><?= $item->title() ?> (<?= $item->keywords() ?>) </p>
-      <p class="col-sm-3 type"><?=$item->type()?> </p>
+      <p class="date"><?= $item->date('m.Y') ?></p>
+      <p class="title"><?= $item->title() ?> (<?= $item->keywords() ?>) </p>
+      <p class="type"><?=$item->type()?> </p>
     </div>
+  <?php endif?>
   </div>
 
 <?php endforeach ?>

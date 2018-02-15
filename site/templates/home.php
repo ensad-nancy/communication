@@ -3,18 +3,18 @@
 <div class="lines">
 
 
-<div class="container">
+<div class="container-fluid">
   <?php snippet('line',
     array('start' => 0, 'limit' => 2, 'types' => array('evenement','workshop','invite'))) ?>
 </div>
 
-<div class="container-fluid">
+<div class="container">
   <?php snippet('line',
     array('start' => 2, 'limit' => 3, 'types' => array('evenement','workshop','invite'))) ?>
 </div>
 <div class="container">
   <?php snippet('line',
-    array('start' => 5, 'limit' => 4, 'types' => array('evenement','workshop','invite'))) ?>
+    array('start' => 0, 'limit' => 12, 'types' => array('dnsep'))) ?>
 </div>
 
 <div class="container-fluid">
