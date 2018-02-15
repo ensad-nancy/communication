@@ -6,6 +6,7 @@
 
   <?php
   $params = params();
+
   if(isset($params['tag'])){
     $type = 'tag';
 
@@ -15,8 +16,6 @@
     $label = $params[$type];
 
   }elseif(isset($params['format'])){
-
-    echo "dddd";
     $type = 'format';
 
     $flux = page('flux')->children()->visible()
@@ -38,6 +37,7 @@
   };
 
   if(isset($flux)):
+
   ?>
 
   <div class="container">
@@ -47,16 +47,15 @@
 
     <?php
     $total = count($flux);
-
     if($total < 2) $lim = 1;
     elseif($total < 4) $lim = 2;
     elseif($total < 6) $lim = 3;
     else $lim = 4;
 
-    for ($i=0; $i < ($total/$lim); $i++): ?>
-      <?php snippet('line',
-        array('flux' => $flux ,'start' => $i*$lim, 'limit' => $lim, 'types' => array('dnsep','dna','invite','evenement','production','workshop',
-    ))) ?>
+    for ($i=0; $i < 1; $i++): // fix better way to handle long list ?>
+      <?php
+      snippet('line',
+        array('flux' => $flux ,'start' => $i*$lim, 'limit' => $lim, 'types' => array())) ?>
     <?php endfor ?>
   </div>
 

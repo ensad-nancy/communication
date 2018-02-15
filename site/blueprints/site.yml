@@ -9,6 +9,10 @@ fields:
     label: Author
     type:  text
 
+  subtitle:
+    label: soustitre
+    type:  text
+
   description:
     label: Description
     type:  markdown

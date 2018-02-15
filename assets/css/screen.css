@@ -6802,6 +6802,19 @@ a:hover,
 a:active {
   color: black;
 }
+body {
+  margin-top: 54px;
+}
+.maintitle {
+  font-size: 1.8em;
+  text-align: center;
+  height: 54px;
+  background: white;
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+  width: 100%;
+}
 .line .line-item {
   margin-bottom: 18px;
 }

@@ -32,11 +32,10 @@ if( count($types) > 0){
     <?php endif ?>
     <div >
       <?php if($limit < 6):?>
-        <p class="date"><?= $item->date('d.m.Y') ?></p>
+        <p class="date col-sm-4"><?= $item->date('d.m.Y') ?><br><?=$item->type()?> </p>
       <?php endif?>
-      <p class="title"><?= $item->title() ?> (<?= $item->keywords() ?>) </p>
+      <p class="title col-sm-8"><?= $item->title() ?> (<?= $item->keywords() ?>) </p>
         <?php if($limit < 6):?>
-      <p class="type"><?=$item->type()?> </p>
       <?php endif?>
     </div>
   </div>

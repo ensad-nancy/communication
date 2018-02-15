@@ -30,7 +30,6 @@ fields:
     type: multiselect
     required: true
     options:
-
       projet: projet
       workshop : workshop
       evenement : événement
