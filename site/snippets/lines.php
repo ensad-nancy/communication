@@ -3,6 +3,13 @@
 $flux = page('flux')->children()->visible()
       ->sortBy('date','desc');
 
+/*
+projet: projet
+workshop : workshop
+evenement : événement
+diplome : diplome
+
+*/
 ?>
 
 <div class="container">

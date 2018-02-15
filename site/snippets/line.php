@@ -24,19 +24,21 @@ if( count($types) > 0){
 
   <div class="<?= 'col-sm-'.$col ?> line-item">
     <?php if($image = $item->images()->sortBy('sort', 'asc')->first()):
-      $tumb = thumb($image, array('width' => (400*5)/$limit, 'height' => (300*5)/$limit, 'crop' => true));
+      $tumb = thumb($image, array('width' => (400*5)/$limit, 'height' => (250*5)/$limit, 'crop' => true));
     ?>
       <a href="<?= $item->url()?>">
         <img class="img-responsive" src="<?= $tumb->url() ?>" alt="" />
       </a>
     <?php endif ?>
-    <?php if($limit < 7):?>
     <div >
-      <p class="date"><?= $item->date('m.Y') ?></p>
+      <?php if($limit < 6):?>
+        <p class="date"><?= $item->date('d.m.Y') ?></p>
+      <?php endif?>
       <p class="title"><?= $item->title() ?> (<?= $item->keywords() ?>) </p>
+        <?php if($limit < 6):?>
       <p class="type"><?=$item->type()?> </p>
+      <?php endif?>
     </div>
-  <?php endif?>
   </div>
 
 <?php endforeach ?>

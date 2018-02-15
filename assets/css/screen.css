@@ -6831,11 +6831,13 @@ a:active {
   margin-right: 18px;
   font-size: 3.5em;
 }
-.formats {
-  font-family: paniniregular, 'Spectral', serif;
-}
-.keywords {
+.format {
   font-family: arabesqueregular, 'Spectral', serif;
+}
+.keyword,
+.tag {
+  font-family: paniniregular, 'Spectral', serif;
+  text-transform: lowercase;
 }
 .poster img {
   display: block;

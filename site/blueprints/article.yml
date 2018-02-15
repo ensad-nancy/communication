@@ -34,7 +34,7 @@ fields:
       projet: projet
       workshop : workshop
       evenement : événement
-      diplome : diplome
+      diplome : diplôme
 
     width: 1/2
     help: vous pouvez selectionner plusieurs formats
@@ -44,7 +44,7 @@ fields:
     label: tags
     type: tags
     width: 1/2
-
+    lower: true
 
   text:
     label: Text
