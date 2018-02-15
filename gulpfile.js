@@ -32,8 +32,11 @@ gulp.task('default', [ 'js', 'less', 'serve'])
 gulp.task('serve', () =>  {
   connect.server({}, () => browserSync({ proxy: '127.0.0.1:8000' }))
   gulp.watch('./assets/less/*.less', ['less'])
+
   gulp.watch('**/*.php').on('change', () => browserSync.reload())
   gulp.watch('./assets/js/*.js').on('change', () =>  browserSync.reload())
+
+  gulp.watch('./assets/js/bundle.js', ['js'])
 })
 
 gulp.task('watch', () => gulp.watch('./assets/less/*.less', ['less']))

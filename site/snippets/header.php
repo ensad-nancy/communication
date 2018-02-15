@@ -16,13 +16,5 @@
 <body>
 
 <div class="container">
-  <div class="grid">
-
-      <div class="branding column">
-        <a href="<?= url() ?>" rel="home"><?= $site->title()->html() ?></a>
-      </div>
-
-      <?php snippet('menu') ?>
-
-    </div>
+  <h1> <a href="<?= url() ?>" rel="home"><?= $site->title()->html() ?></a></h1>
 </div>

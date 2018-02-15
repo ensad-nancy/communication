@@ -33,7 +33,7 @@ fields:
       dnsep : dnsep
       dna : dna
       invite : invité
-      evenement : evenement
+      evenement : événement
       production : production
       workshop : workshop
     width: 1/2

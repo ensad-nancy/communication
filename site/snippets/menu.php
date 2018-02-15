@@ -1,4 +1,4 @@
-  <ul class="menu">
+  <ul class="nav navbar-nav">
     <?php foreach($pages->visible() as $item): ?>
     <li class="menu-item<?= r($item->isOpen(), ' is-active') ?>">
       <a href="<?= $item->url() ?>"><?= $item->title()->html() ?></a>
