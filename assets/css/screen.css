@@ -6822,16 +6822,22 @@ a:active {
 .line .line-item p.type {
   text-align: right;
 }
-.tags {
-  text-align: center;
+.sentence {
+  font-family: 'Spectral', serif;
+  font-size: 1.8em;
 }
-.tags a {
-  display: inline-block;
-  margin-left: 18px;
-  margin-right: 18px;
-  font-size: 3.5em;
+.sentence a {
+  font-family: paniniregular, 'Spectral', serif;
 }
-.format {
+.sentence .tags {
+  display: inline;
+}
+.sentence .tags a {
+  font-family: arabesqueregular, 'Spectral', serif;
+  text-transform: lowercase;
+}
+.formats a,
+.year {
   font-family: arabesqueregular, 'Spectral', serif;
 }
 .keyword,

@@ -15,6 +15,8 @@
     $label = $params[$type];
 
   }elseif(isset($params['format'])){
+
+    echo "dddd";
     $type = 'format';
 
     $flux = page('flux')->children()->visible()
@@ -45,7 +47,6 @@
 
     <?php
     $total = count($flux);
-    echo $total;
 
     if($total < 2) $lim = 1;
     elseif($total < 4) $lim = 2;

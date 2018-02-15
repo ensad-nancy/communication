@@ -1,47 +1,30 @@
-<div class="container-fluid format">
+<div class="container format">
 
-  <?php $tagcloud = tagcloud(page('flux'),
-  array('limit' => 50,
-  'field' => 'Type',
-  'baseurl' => '.',
-  'sortdir' => 'desc',
-  'param' => 'format'
+<?php
+$tagcloud = tagcloud(page('flux'),
+  array('limit' => 20,
+    'field' => 'keywords',
+    'baseurl' => '.',
+    'sortdir' => 'desc',
+    'param' => 'tag'
+  )
 )
-) ?>
-<div class="tags">
-  <?php foreach($tagcloud as $tag): ?>
-    <a href="/<?php echo $tag->url() ?>"><?php echo $tag->name() ?></a>
-  <?php endforeach ?>
-</div>
+?>
 
-</div>
-<hr>
-<div class="container-fluid keyword">
-
-  <?php $tagcloud = tagcloud(page('flux'),
-    array('limit' => 20,
-      'field' => 'keywords',
-      'baseurl' => '.',
-      'sortdir' => 'desc',
-      'param' => 'tag'
-    )
-  ) ?>
-
- 	<div class="tags">
-   	<?php foreach($tagcloud as $tag): ?>
-   	  <a href="/<?php echo $tag->url() ?>"><?php echo $tag->name() ?></a>
-   	<?php endforeach ?>
- 	</div>
-
-</div>
-<hr>
-<div class="container-fluid year">
-
-  <div class="tags">
-    <?php for ($y=2012; $y < (int)date("Y")+1; $y++): ?>
-      <a href="/year:<?= $y ?>"><?= $y ?></a>
-    <?php endfor ?>
+<div class="sentence">
+  <div class="formats">
+    <?= $site->footer()->kirbytext() ?>
   </div>
+
+  <p ><?php foreach($tagcloud as $tag): ?>
+     	  <a class="format"href="/<?php echo $tag->url() ?>"><?php echo $tag->name() ?></a> •
+     	<?php endforeach ?>
+
+   au cours des années
+    <?php for ($y=2012; $y < (int)date("Y")+1; $y++): ?>
+      <a class="year" href="/year:<?= $y ?>"><?= $y ?></a>
+    <?php endfor ?>.
+  </p>
 </div>
 
 <div class="container poster">
