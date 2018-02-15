@@ -1,18 +1,21 @@
-<!-- <nav class="navbar navbar-inverse navbar-fixed-bottom">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#"></a>
-    </div>
-    <?php snippet('menu') ?>
+  <div class="container">
+
+    <?php $tagcloud = tagcloud(page('flux'),
+      array('limit' => 50,
+        'field' => 'keywords',
+        'baseurl' => '.',
+        'sortdir' => 'desc',
+        'param' => 'tag'
+      )
+    ) ?>
+
+   	<ul>
+     	<?php foreach($tagcloud as $tag): ?>
+     	  <li><a href="<?php echo $tag->url() ?>"><?php echo $tag->name() ?></a></li>
+     	<?php endforeach ?>
+   	</ul>
 
   </div>
-</nav> -->
-
-<footer class="footer">
-      <div class="container">
-      </div>
-    </footer>
-
   <?php echo js(array(
     '/assets/js/bundle.min.js',
     '/assets/js/app.js',

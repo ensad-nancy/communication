@@ -1,35 +1,41 @@
-<?php snippet('header') ?>
+<?php snippet('header')
+
+// dnsep : dnsep
+// dna : dna
+// invite : invité
+// evenement : événement
+// production : production
+// workshop : workshop
+
+
+
+
+?>
 
 <div class="lines">
 
+  <?php
+  $params = params();
+  if(isset($params['tag'])):
 
-<div class="container-fluid">
-  <?php snippet('line',
-    array('start' => 0, 'limit' => 2, 'types' => array('evenement','workshop','invite'))) ?>
-</div>
+  $flux = page('flux')->children()->visible()
+          ->sortBy('date','desc')
+          ->filterBy('keywords', $params['tag'], ',');
 
-<div class="container">
-  <?php snippet('line',
-    array('start' => 2, 'limit' => 3, 'types' => array('evenement','workshop','invite'))) ?>
-</div>
-<div class="container">
-  <?php snippet('line',
-    array('start' => 0, 'limit' => 12, 'types' => array('dnsep'))) ?>
-</div>
+  ?>
 
-<div class="container-fluid">
-  <?php for ($i=0; $i < 3; $i++):$lim=4; ?>
-  <?php snippet('line',
-    array('start' => $i*$lim, 'limit' => $lim, 'types' => array('dnsep','dna'))) ?>
-  <?php endfor ?>
-</div>
+  <div class="container">
+    <h1> <?=  $params['tag'] ?></h1>
+    <?php for ($i=0; $i < 10; $i++):$lim=3; ?>
+      <?php snippet('line',
+        array('flux' => $flux ,'start' => $i*$lim, 'limit' => $lim, 'types' => array('dnsep','dna','invite','evenement','production','workshop',
+    ))) ?>
+    <?php endfor ?>
+  </div>
 
-<div class="container-fluid">
-  <?php for ($i=0; $i < 10; $i++):$lim=6; ?>
-  <?php snippet('line',
-    array('start' => $i*$lim, 'limit' => $lim, 'types' => array('dnsep','dna','invite','evenement','production','workshop',
-))) ?>
-  <?php endfor ?>
+  <?php else:
+  ?>
+    <?php snippet('lines') ?>
+  <?php endif ?>
 </div>
 <?php snippet('footer') ?>
-</div>
