@@ -62,5 +62,13 @@
   <?php else: ?>
     <?php snippet('lines') ?>
   <?php endif ?>
+
+
+  <?php snippet('footer') ?>
+
+    <div class="container manifeste">
+      <div class="col-sm-offset-2 col-sm-8">
+        <?= page('p/manifeste/')->text()->kirbytext() ?>
+      </div>
+    </div>
 </div>
-<?php snippet('footer') ?>

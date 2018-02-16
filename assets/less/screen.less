@@ -18,45 +18,65 @@
   }
 }
 a {
-  &, &:hover, &:active {
+  &, &:hover, &:active, &:focus {
     color: black;
   }
 }
 
 body {
   font-family: 'Spectral', serif;
-  margin-top: @grid-gutter-width*3;
+  margin-top: @grid-gutter-width*6;
   margin-bottom: @grid-gutter-width*20;
+  background: #dcddde;
 }
+.big(){
+  font-size:1.8em;
+  line-height: 1.1em;
+}
+
 .maintitle {
-  font-size: 1.8em;
+  .big();
   text-align: center;
-  height: @grid-gutter-width*3;
+  padding: @grid-gutter-width/2 0  @grid-gutter-width/2;
   background: white;
   position: fixed;
   top:0;
   z-index: 10000;
   width: 100%;
 }
+
+.article {
+
+
+  .title {
+      .big();
+  }
+}
+
 .line {
   .line-item {
-
+    .caption {
+      margin-top: .3em;
+      height: 4em;
+    }
     p {
-      margin-bottom: 0;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      overflow: hidden;
+      // // margin-bottom: 0;
+      // text-overflow: ellipsis;
+      // // white-space: nowrap;
+      // overflow: hidden;
+
+      // height: 4em;
 
       &.title {
         font-family: 'Spectral SC', serif;
-        text-align: center;
       }
       &.date {
-        text-align: left;
-        direction: rtl;
+        font-family: 'Spectral', serif;
+        margin-bottom: 0;
+
       }
       &.type {
-        text-align: right;
+        margin-bottom: 0;
       }
     }
 
@@ -65,41 +85,43 @@ body {
 }
 
 .sentence {
-
-  font-family: 'Spectral', serif;
-  font-size:1.8em;
-  line-height: 1.1em;
-
+  .big();
   .tags a {
     font-family: paniniregular, 'Spectral', serif;
     text-transform: lowercase;
   }
 
   margin: 0 0 @grid-gutter-width*3;
-
 }
-
-a.year, .formats a {
+.types { font-family: 'Spectral', serif;}
+a.year, .types a, .type, .format, .list-item .type{
   font-family: paniniregular, 'Spectral', serif;
 }
-a.format {
+a.keyword, .tag {
   font-family: arabesqueregular, 'Spectral', serif;
   text-transform: lowercase;
 }
 
 .tagTitle {
   text-align: center;
+  .big();
+  margin: 0 0 @grid-gutter-width*3;
 }
-.poster img {
-  width: 100%;
+
+
+.manifeste {
+  font-family: 'Spectral', serif;
+  .big();
+}
+
+.footer {
+
+
 }
 
 .poster {
-
   margin: @grid-gutter-width*3 0 @grid-gutter-width*3;
-
   img {
-    .img-responsive();
+    width: 100% !important;
   }
-
 }

@@ -6799,46 +6799,49 @@ button.close {
 }
 a,
 a:hover,
-a:active {
+a:active,
+a:focus {
   color: black;
 }
 body {
   font-family: 'Spectral', serif;
-  margin-top: 54px;
+  margin-top: 108px;
   margin-bottom: 360px;
+  background: #dcddde;
 }
 .maintitle {
   font-size: 1.8em;
+  line-height: 1.1em;
   text-align: center;
-  height: 54px;
+  padding: 9px 0 9px;
   background: white;
   position: fixed;
   top: 0;
   z-index: 10000;
   width: 100%;
 }
+.article .title {
+  font-size: 1.8em;
+  line-height: 1.1em;
+}
 .line .line-item {
   margin-bottom: 18px;
 }
-.line .line-item p {
-  margin-bottom: 0;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
+.line .line-item .caption {
+  margin-top: .3em;
+  height: 4em;
 }
 .line .line-item p.title {
   font-family: 'Spectral SC', serif;
-  text-align: center;
 }
 .line .line-item p.date {
-  text-align: left;
-  direction: rtl;
+  font-family: 'Spectral', serif;
+  margin-bottom: 0;
 }
 .line .line-item p.type {
-  text-align: right;
+  margin-bottom: 0;
 }
 .sentence {
-  font-family: 'Spectral', serif;
   font-size: 1.8em;
   line-height: 1.1em;
   margin: 0 0 54px;
@@ -6847,25 +6850,35 @@ body {
   font-family: paniniregular, 'Spectral', serif;
   text-transform: lowercase;
 }
+.types {
+  font-family: 'Spectral', serif;
+}
 a.year,
-.formats a {
+.types a,
+.type,
+.format,
+.list-item .type {
   font-family: paniniregular, 'Spectral', serif;
 }
-a.format {
+a.keyword,
+.tag {
   font-family: arabesqueregular, 'Spectral', serif;
   text-transform: lowercase;
 }
 .tagTitle {
   text-align: center;
+  font-size: 1.8em;
+  line-height: 1.1em;
+  margin: 0 0 54px;
 }
-.poster img {
-  width: 100%;
+.manifeste {
+  font-family: 'Spectral', serif;
+  font-size: 1.8em;
+  line-height: 1.1em;
 }
 .poster {
   margin: 54px 0 54px;
 }
 .poster img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+  width: 100% !important;
 }

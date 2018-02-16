@@ -1,17 +1,22 @@
-<?php snippet('header') ?>
+<?php snippet('header');
+
+  $keywords = explode(',',$page->keywords());
+
+ ?>
 
 
-  <div class="container">
+  <div class="container article">
 
-    <div class="col-sm-4 col-sm-offset-2">
-
-      <p class="date"><?= $page->date('d.m.Y') ?>, <?=$page->type()?></p>
-      <p><?= $page->keywords() ?></p>
-
+    <div class="">
+      <p class="date col-sm-2"><?= $page->date('d.m.Y') ?>
+      <p class="type col-sm-2"><a href="/format:<?= $page->type() ?>"><?=$page->type()?></a></p>
+      <p class="tag col-sm-12">
+        <?php foreach($keywords as $keyword): ?>
+          <a href="/tag:<?=  $keyword ?>"><?= $keyword ?></a><br>
+        <?php endforeach ?>
+    </p>
     </div>
-    <div class="col-sm-4">
-      <p class="title"><?= $page->title() ?></p>
-    </div>
+    <p class="col-sm-offset-2 col-sm-12 title"><?= $page->title() ?></p>
 
     <div class="col-sm-offset-2 col-sm-8">
       <?= $page->text()->kirbytext() ?>
