@@ -6725,32 +6725,20 @@ button.close {
 @font-face {
   font-family: 'Spectral';
   font-style: italic;
-  font-weight: 400;
-  src: local('Spectral Italic'), local('Spectral-Italic'), url(https://fonts.gstatic.com/s/spectral/v4/rnCt-xNNww_2s0amA9M8onrmSQ.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Spectral';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Spectral Bold Italic'), local('Spectral-BoldItalic'), url(https://fonts.gstatic.com/s/spectral/v4/rnCu-xNNww_2s0amA9M8qsHDWfSFWA.ttf) format('truetype');
+  font-weight: 200;
+  src: local('Spectral ExtraLight Italic'), local('Spectral-ExtraLightItalic'), url(https://fonts.gstatic.com/s/spectral/v4/rnCu-xNNww_2s0amA9M8qrXHWfSFWA.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Spectral';
   font-style: normal;
-  font-weight: 400;
-  src: local('Spectral Regular'), local('Spectral-Regular'), url(https://fonts.gstatic.com/s/spectral/v4/rnCr-xNNww_2s0amA9M5kn0.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Spectral';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Spectral Bold'), local('Spectral-Bold'), url(https://fonts.gstatic.com/s/spectral/v4/rnCs-xNNww_2s0amA9uCt23BafM.ttf) format('truetype');
+  font-weight: 200;
+  src: local('Spectral ExtraLight'), local('Spectral-ExtraLight'), url(https://fonts.gstatic.com/s/spectral/v4/rnCs-xNNww_2s0amA9v2s23BafM.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Spectral SC';
   font-style: normal;
-  font-weight: 500;
-  src: local('Spectral SC Medium'), local('SpectralSC-Medium'), url(https://fonts.gstatic.com/s/spectralsc/v2/Ktk0ALCRZonmalTgyPmRfs1WwHTQN4M.ttf) format('truetype');
+  font-weight: 200;
+  src: local('Spectral SC ExtraLight'), local('SpectralSC-ExtraLight'), url(https://fonts.gstatic.com/s/spectralsc/v2/Ktk0ALCRZonmalTgyPmRfs1qwnTQN4M.ttf) format('truetype');
 }
 @font-face {
   font-family: 'paniniregular';
@@ -6814,19 +6802,26 @@ body {
 .article .title {
   font-size: 1.8em;
   line-height: 1.1em;
+  margin-bottom: 3em;
+}
+.article .content {
+  font-family: 'Spectral', serif;
+  font-style: italic;
 }
 .line .line-item {
   margin-bottom: 18px;
 }
 .line .line-item .caption {
   margin-top: 1em;
-  height: 6em;
+  height: 6.2em;
+  overflow: hidden;
 }
 .line .line-item p {
+  line-height: 1.2em;
   margin-bottom: 0;
 }
 .line .line-item p.title {
-  font-family: 'Spectral', serif;
+  font-family: 'Spectral SC', serif;
   overflow: hidden;
   text-overflow: ellipsis;
 }

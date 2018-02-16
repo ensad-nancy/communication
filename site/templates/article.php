@@ -18,7 +18,7 @@
     </div>
     <p class="col-sm-offset-2 col-sm-12 title"><?= $page->title() ?></p>
 
-    <div class="col-sm-offset-2 col-sm-8">
+    <div class="col-sm-offset-2 col-sm-8 content">
       <?= $page->text()->kirbytext() ?>
     </div>
 

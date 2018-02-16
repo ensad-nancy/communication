@@ -2,13 +2,16 @@
 @import 'variables.less';
 // @import (less) '../../site/plugins/oembed/assets/oembed.css';
 
-@import (less) url('https://fonts.googleapis.com/css?family=Spectral+SC:500|Spectral:400,400i,700,700i');
+@import (less) url('https://fonts.googleapis.com/css?family=Spectral+SC:200|Spectral:200,200i');
+
+
 @import (less) url('./../fonts/panini/stylesheet.css');
+// @import (less) url('./../fonts/spectral-extralight/stylesheet.css');
+// @import (less) url('./../fonts/spectral-extralight-sc/stylesheet.css');
 @import (less) url('./../fonts/arabesque/stylesheet.css');
 
 @mainColor: royalblue;
 @charset "UTF-8";
-
 
 .video {
   .embed-responsive();
@@ -44,6 +47,11 @@ body {
 .article {
   .title {
     .big();
+    margin-bottom: 3em;
+  }
+  .content {
+    font-family: 'Spectral',serif;
+    font-style: italic;
   }
 }
 
@@ -51,18 +59,21 @@ body {
   .line-item {
     .caption {
       margin-top: 1em;
-      height: 6em;
+      height: 6.2em;
+      overflow: hidden;
     }
     p {
+      line-height: 1.2em;
       margin-bottom: 0;
       // text-overflow: ellipsis;
       // // white-space: nowrap;
-      // overflow: hidden;
       //
       // // height: 4em;
 
       &.title {
-        font-family: 'Spectral', serif;
+        font-family: 'Spectral SC',serif;
+
+        // color:red;
         // display: block;
         // display: -webkit-box;
         // max-width: 100%;
