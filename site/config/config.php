@@ -34,22 +34,30 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 
 */
 
-c::set('debug',true);
+$isDev = true;
 
-c::set('thumbs.driver', 'im');
+c::set('debug',$isDev);
+
+// c::set('thumbs.driver', 'im');
+c::set('cache', !$isDev);
 
 c::set('imageset.presets', [
   'default' => [
     [ '300-1500,4' ],
   ],
+  'hero'    => [
+    [ '320x180-1920x1080,5', 'media' => '(min-aspect-ratio: 3/2)' ]
+  ],
   'tags'   => [
-    [ '300-1500,4' ]
+    [ '300-1200,4' ]
   ],
   'mini'   => [
     [ '200' ]
   ]
 ]);
 
+
 c::set('imageset.tags.image.sizes.default', 'tags');
 c::set('imagekit.lazy', false);
-c::set('imageset.placeholder', 'color');
+c::set('imageset.placeholder', 'blurred');
+c::set('imageset.cache',!$isDev);

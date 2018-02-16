@@ -10,6 +10,7 @@ fields:
   coverimage:
     label: Image d'aperçu
     type: image
+    default: first
     width: 1/2
     help: image qui sera affichée comme aperçu du projet
 
