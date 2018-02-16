@@ -17,17 +17,13 @@
     .embed-responsive-item();
   }
 }
-a {
-  &, &:hover, &:active, &:focus {
-    color: black;
-  }
-}
+
 
 body {
   font-family: 'Spectral', serif;
   margin-top: @grid-gutter-width*6;
   margin-bottom: @grid-gutter-width*20;
-  background: #dcddde;
+  background: @bg-color;
 }
 .big(){
   font-size:1.8em;
@@ -35,10 +31,10 @@ body {
 }
 
 .maintitle {
-  .big();
+  // .big();
   text-align: center;
-  padding: @grid-gutter-width/2 0  @grid-gutter-width/2;
-  background: white;
+  padding: @grid-gutter-width/2 0  ;//@grid-gutter-width;
+
   position: fixed;
   top:0;
   z-index: 10000;
@@ -46,29 +42,38 @@ body {
 }
 
 .article {
-
-
   .title {
-      .big();
+    .big();
   }
 }
 
 .line {
   .line-item {
     .caption {
-      margin-top: .3em;
-      height: 4em;
+      margin-top: 1em;
+      height: 6em;
     }
     p {
-      // // margin-bottom: 0;
+      margin-bottom: 0;
       // text-overflow: ellipsis;
       // // white-space: nowrap;
       // overflow: hidden;
-
-      // height: 4em;
+      //
+      // // height: 4em;
 
       &.title {
-        font-family: 'Spectral SC', serif;
+        font-family: 'Spectral', serif;
+        // display: block;
+        // display: -webkit-box;
+        // max-width: 100%;
+        // height: 50px;
+        // // margin: 0 auto;
+        // // font-size: 14px;
+        // line-height: 1;
+        // -webkit-line-clamp: 3;
+        // -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
       &.date {
         font-family: 'Spectral', serif;

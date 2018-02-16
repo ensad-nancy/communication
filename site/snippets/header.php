@@ -16,7 +16,7 @@
 <body>
 
 <div class="container-fluid maintitle">
-  <p class="col-sm-4"> <a href="<?= url() ?>" rel="home"><?= $site->title()->html() ?></a></p>
-  <p class="col-sm-4"> <a href="<?= url() ?>" rel="home"><?= $site->subtitle()->html() ?></a></p>
-  <p class="col-sm-4"> <a href="<?= url() ?>" rel="home"><?= $site->author()->html() ?></a></p>
+  <p class="col-sm-4 format"> <a href="<?= url() ?>" rel="home"><?= $site->title()->html() ?></a></p>
+  <p class="col-sm-4 tag"> <a href="<?= url() ?>" rel="home"><?= $site->subtitle()->html() ?></a></p>
+  <p class="col-sm-4"> <a href="http://ensa-nancy.fr" target="_blank"><?= $site->author()->html() ?></a></p>
 </div>

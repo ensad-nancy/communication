@@ -1087,12 +1087,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: #222222;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #23527c;
+  color: black;
   text-decoration: underline;
 }
 a:focus {
@@ -3386,7 +3386,7 @@ fieldset[disabled] .btn-danger.focus {
   background-color: #fff;
 }
 .btn-link {
-  color: #337ab7;
+  color: #222222;
   font-weight: normal;
   border-radius: 0;
 }
@@ -3407,7 +3407,7 @@ fieldset[disabled] .btn-link {
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #23527c;
+  color: black;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -3987,7 +3987,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #337ab7;
+  border-color: #222222;
 }
 .nav .nav-divider {
   height: 1px;
@@ -4704,7 +4704,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding: 6px 12px;
   line-height: 1.42857143;
   text-decoration: none;
-  color: #337ab7;
+  color: #222222;
   background-color: #fff;
   border: 1px solid #ddd;
   margin-left: -1px;
@@ -4725,7 +4725,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li > a:focus,
 .pagination > li > span:focus {
   z-index: 2;
-  color: #23527c;
+  color: black;
   background-color: #eeeeee;
   border-color: #ddd;
 }
@@ -4923,7 +4923,7 @@ a.badge:focus {
 }
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #337ab7;
+  color: #222222;
   background-color: #fff;
 }
 .list-group-item > .badge {
@@ -4998,7 +4998,7 @@ a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #337ab7;
+  border-color: #222222;
 }
 .thumbnail .caption {
   padding: 9px;
@@ -6797,12 +6797,6 @@ button.close {
   width: 100%;
   border: 0;
 }
-a,
-a:hover,
-a:active,
-a:focus {
-  color: black;
-}
 body {
   font-family: 'Spectral', serif;
   margin-top: 108px;
@@ -6810,11 +6804,8 @@ body {
   background: #dcddde;
 }
 .maintitle {
-  font-size: 1.8em;
-  line-height: 1.1em;
   text-align: center;
-  padding: 9px 0 9px;
-  background: white;
+  padding: 9px 0;
   position: fixed;
   top: 0;
   z-index: 10000;
@@ -6828,11 +6819,16 @@ body {
   margin-bottom: 18px;
 }
 .line .line-item .caption {
-  margin-top: .3em;
-  height: 4em;
+  margin-top: 1em;
+  height: 6em;
+}
+.line .line-item p {
+  margin-bottom: 0;
 }
 .line .line-item p.title {
-  font-family: 'Spectral SC', serif;
+  font-family: 'Spectral', serif;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .line .line-item p.date {
   font-family: 'Spectral', serif;

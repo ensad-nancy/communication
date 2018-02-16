@@ -20,19 +20,19 @@ diplome : diplome
   )) ?>
 </div>
 
-<div class="container">
+<div class="container-fluid">
   <?php snippet('line',
     array('flux' => $flux ,
     'start' => 2,
-    'limit' => 3,
+    'limit' => 4,
     'types' => array('evenement','workshop')
   )) ?>
 </div>
 
 <?php snippet('menu') ?>
 
-<div class="container-fluid">
-  <?php for ($i=0; $i < 3; $i++):$lim=4; ?>
+<div class="container">
+  <?php for ($i=0; $i < 5; $i++):$lim=4; ?>
   <?php snippet('line',
     array('flux' => $flux ,'start' => $i*$lim, 'limit' => $lim, 'types' => array('diplome'))) ?>
   <?php endfor ?>
@@ -40,5 +40,5 @@ diplome : diplome
 
 <div class="container-fluid">
   <?php snippet('line',
-    array('flux' => $flux ,'start' => 0, 'limit' => 3, 'types' => array('projet'))) ?>
+    array('flux' => $flux ,'start' => 0, 'limit' => 3, 'types' => array('projet','publications'))) ?>
 </div>

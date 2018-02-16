@@ -7,7 +7,18 @@
 @font-size-base:          16px;
 @font-family-sans-serif: 'Spectral', serif;
 
+@text-color:            @gray-dark;
 
+@link-color:            @gray-darker;
+@link-hover-color:     black;
+@link-hover-decoration: underline;
+@bg-color: #dcddde;
 
 // font-family: 'Spectral', serif;
 // font-family: 'Spectral SC', serif;
+.gradient(){
+  background: -moz-linear-gradient(top, rgba(220,221,222,1) 0%, rgba(220,221,222,0.65) 40%, rgba(220,221,222,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(220,221,222,1) 0%,rgba(220,221,222,0.65) 40%,rgba(220,221,222,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(220,221,222,1) 0%,rgba(220,221,222,0.65) 40%,rgba(220,221,222,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcddde', endColorstr='#00dcddde',GradientType=0 ); /* IE6-9 */
+}
