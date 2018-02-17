@@ -20,10 +20,18 @@ diplome : diplome
   )) ?>
 </div>
 
-<div class="container-fluid">
+<div class="container">
   <?php snippet('line',
     array('flux' => $flux ,
     'start' => 2,
+    'limit' => 3,
+    'types' => array('evenement','workshop')
+  )) ?></div>
+  <div class="container-fluid">
+
+  <?php snippet('line',
+    array('flux' => $flux ,
+    'start' => 5,
     'limit' => 4,
     'types' => array('evenement','workshop')
   )) ?>
@@ -36,9 +44,4 @@ diplome : diplome
   <?php snippet('line',
     array('flux' => $flux ,'start' => $i*$lim, 'limit' => $lim, 'types' => array('diplome'))) ?>
   <?php endfor ?>
-</div>
-
-<div class="container-fluid">
-  <?php snippet('line',
-    array('flux' => $flux ,'start' => 0, 'limit' => 3, 'types' => array('projet','publications'))) ?>
 </div>

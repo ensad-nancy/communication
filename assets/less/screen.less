@@ -58,9 +58,11 @@ body {
 .line {
   .line-item {
     .caption {
-      margin-top: 1em;
-      height: 6.2em;
+      margin-top: 1.2em;
+      height: 1.2em*4;
       overflow: hidden;
+      text-overflow: ellipsis;
+
     }
     p {
       line-height: 1.2em;
@@ -101,6 +103,8 @@ body {
 }
 
 .sentence {
+  padding: @grid-gutter-width*3 0 @grid-gutter-width*3;
+
   .big();
   .tags a {
     font-family: paniniregular, 'Spectral', serif;

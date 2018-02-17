@@ -34,30 +34,27 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 
 */
 
-$isDev = true;
+if($_SERVER['SERVER_NAME'] == 'localhost') $isDev = true;
+else $isDev = false;
+
+if($isDev)dump($_SERVER['SERVER_NAME']);
 
 c::set('debug',$isDev);
 
-// c::set('thumbs.driver', 'im');
+c::set('thumbs.driver', 'im');
 c::set('cache', !$isDev);
 
 c::set('imageset.presets', [
-  'default' => [
-    [ '300-1500,4' ],
-  ],
   'hero'    => [
     [ '320x180-1920x1080,5', 'media' => '(min-aspect-ratio: 3/2)' ]
   ],
   'tags'   => [
-    [ '300-1200,4' ]
-  ],
-  'mini'   => [
-    [ '200' ]
+    [ '250-800,4' ]
   ]
 ]);
 
 
 c::set('imageset.tags.image.sizes.default', 'tags');
-c::set('imagekit.lazy', false);
+c::set('imagekit.lazy', !$isDev);
 c::set('imageset.placeholder', 'blurred');
 c::set('imageset.cache',!$isDev);

@@ -6812,9 +6812,10 @@ body {
   margin-bottom: 18px;
 }
 .line .line-item .caption {
-  margin-top: 1em;
-  height: 6.2em;
+  margin-top: 1.2em;
+  height: 4.8em;
   overflow: hidden;
+  text-overflow: ellipsis;
 }
 .line .line-item p {
   line-height: 1.2em;
@@ -6833,6 +6834,7 @@ body {
   margin-bottom: 0;
 }
 .sentence {
+  padding: 54px 0 54px;
   font-size: 1.8em;
   line-height: 1.1em;
   margin: 0 0 54px;

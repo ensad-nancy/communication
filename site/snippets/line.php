@@ -16,19 +16,10 @@ if( count($types) > 0){
 ?>
 
 <div class="line">
-<?php foreach($items as $item):
-
-  if($cover = $item->coverimage()) $image = $cover;
-  elseif($firstimage = $item->images()->sortBy('sort', 'asc')->first()) $image = $firstimage;
-
-  $firstimage = $item->images()->sortBy('sort', 'asc')->first();
-
-?>
+<?php foreach($items as $item):?>
 
   <div class="<?php foreach ($col as $key => $val) echo "col-{$key}-{$val} "?> line-item">
-    <?php if($image = $item->images()->sortBy('sort', 'asc')->first()):
-      // $tumb = thumb($image, array('width' => (400*5)/$limit, 'height' => (250*5)/$limit, 'crop' => true));
-    ?>
+
       <a href="<?= $item->url()?>">
         <?php if($hero = $item->coverimage()->toFile()): ?>
           <div class="hero">
@@ -36,7 +27,7 @@ if( count($types) > 0){
           </div>
         <?php endif ?>
       </a>
-    <?php endif ?>
+
     <div class="caption">
       <?php if($limit < 6):?>
         <p class="col-sm-6 col-lg-4 date"> <?= $item->date('d.m.Y') ?> </p>
