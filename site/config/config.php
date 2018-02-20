@@ -34,10 +34,10 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 
 */
 
-if($_SERVER['SERVER_NAME'] == 'localhost') $isDev = true;
+if($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_NAME'] == '127.0.0.1') $isDev = true;
 else $isDev = false;
 
-if($isDev)dump($_SERVER['SERVER_NAME']);
+// if($isDev)dump($_SERVER['SERVER_NAME']);
 
 c::set('debug',$isDev);
 

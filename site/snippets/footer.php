@@ -1,5 +1,5 @@
 
-<div class="container-fluid poster">
+<div class="container poster">
   <?= page('flux')->text()->kirbytext() ?>
 </div>
 <div class="footer">

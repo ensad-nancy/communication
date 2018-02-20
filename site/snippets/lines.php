@@ -16,28 +16,34 @@ diplome : diplome
   <?php snippet('line',
     array('flux' => $flux ,
     'start' => 0,'limit' => 2,
-    'types' => array('evenement','workshop')
+    'types' => array('evenement','workshop','publications')
   )) ?>
 </div>
+
 
 <div class="container">
   <?php snippet('line',
     array('flux' => $flux ,
     'start' => 2,
     'limit' => 3,
-    'types' => array('evenement','workshop')
+    'types' => array('evenement','workshop','publications')
   )) ?></div>
+  <?php snippet('menu') ?>
   <div class="container-fluid">
 
   <?php snippet('line',
     array('flux' => $flux ,
     'start' => 5,
     'limit' => 4,
-    'types' => array('evenement','workshop')
-  )) ?>
+    'types' => array('evenement','workshop','publications'))) ?>
+  <?php snippet('line',
+    array('flux' => $flux ,
+    'start' => 9,
+    'limit' => 4,
+    'types' => array('evenement','workshop','publications'))) ?>
+
 </div>
 
-<?php snippet('menu') ?>
 
 <div class="container">
   <?php for ($i=0; $i < 5; $i++):$lim=4; ?>

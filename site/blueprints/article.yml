@@ -35,7 +35,7 @@ fields:
       workshop : workshop
       evenement : événement
       diplome : diplôme
-      publication : diplôme
+      publication : publication
 
     width: 1/2
     help: vous pouvez selectionner plusieurs formats
