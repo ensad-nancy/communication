@@ -53,6 +53,8 @@ c::set('imageset.presets', [
   ]
 ]);
 
+// c::set('debug',true);
+
 
 c::set('imageset.tags.image.sizes.default', 'tags');
 c::set('imagekit.lazy', !$isDev);

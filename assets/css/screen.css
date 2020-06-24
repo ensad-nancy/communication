@@ -6726,19 +6726,19 @@ button.close {
   font-family: 'Spectral';
   font-style: italic;
   font-weight: 200;
-  src: local('Spectral ExtraLight Italic'), local('Spectral-ExtraLightItalic'), url(https://fonts.gstatic.com/s/spectral/v4/rnCu-xNNww_2s0amA9M8qrXHWfSFWA.ttf) format('truetype');
+  src: local('Spectral ExtraLight Italic'), local('Spectral-ExtraLightItalic'), url(https://fonts.gstatic.com/s/spectral/v6/rnCu-xNNww_2s0amA9M8qrXHWfSFWA.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Spectral';
   font-style: normal;
   font-weight: 200;
-  src: local('Spectral ExtraLight'), local('Spectral-ExtraLight'), url(https://fonts.gstatic.com/s/spectral/v4/rnCs-xNNww_2s0amA9v2s23BafM.ttf) format('truetype');
+  src: local('Spectral ExtraLight'), local('Spectral-ExtraLight'), url(https://fonts.gstatic.com/s/spectral/v6/rnCs-xNNww_2s0amA9v2s23BafM.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Spectral SC';
   font-style: normal;
   font-weight: 200;
-  src: local('Spectral SC ExtraLight'), local('SpectralSC-ExtraLight'), url(https://fonts.gstatic.com/s/spectralsc/v3/Ktk0ALCRZonmalTgyPmRfs1qwnTQN4M.ttf) format('truetype');
+  src: local('Spectral SC ExtraLight'), local('SpectralSC-ExtraLight'), url(https://fonts.gstatic.com/s/spectralsc/v5/Ktk0ALCRZonmalTgyPmRfs1qwnTQN4M.ttf) format('truetype');
 }
 @font-face {
   font-family: 'paniniregular';
@@ -6807,6 +6807,11 @@ body {
 .article .content {
   font-family: 'Spectral', serif;
   font-style: italic;
+}
+.article figcaption {
+  padding-top: 0.3em;
+  padding-bottom: 1.5em;
+  font-size: 0.8em;
 }
 .line .line-item {
   margin-bottom: 18px;
