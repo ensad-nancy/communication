@@ -37,7 +37,7 @@
     "gulp-doctoc": "^0.1.4",
     "jshint": "^2.9.5",
     "jshint-loader": "^0.8.4",
-    "lazysizes": "^4.0.1",
+    "lazysizes": "^5.2.1",
     "node-sass": "^4.7.2",
     "postcss-loader": "^2.1.1",
     "resolve-url-loader": "^2.2.1",
