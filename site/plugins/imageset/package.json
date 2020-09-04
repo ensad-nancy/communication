@@ -38,7 +38,7 @@
     "jshint": "^2.9.5",
     "jshint-loader": "^0.8.4",
     "lazysizes": "^4.0.1",
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.13.1",
     "postcss-loader": "^2.1.1",
     "resolve-url-loader": "^2.2.1",
     "respimage": "^1.4.2",
