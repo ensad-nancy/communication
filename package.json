@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "browser-sync": "^2.26.3",
+    "browser-sync": "^2.27.10",
     "gulp-concat": "^2.6.1",
     "gulp-connect-php": "^1.0.1",
     "gulp-less": "^3.4.0",
